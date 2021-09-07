@@ -75,10 +75,10 @@ function ExamplesNavbar() {
             data-placement="bottom"
             to="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="BIOPset"
             tag={Link}
           >
-            Paper Kit 2
+            BIOPset
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -99,13 +99,16 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Components
+              <NavLink
+                href="https://https://medium.com/biopset"
+                target="_blank"
+              >
+                <i className="nc-icon nc-layout-11" /> Blog
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
+                href="https://docs.biopset.com/"
                 target="_blank"
               >
                 <i className="nc-icon nc-book-bookmark" /> Documentation
@@ -114,7 +117,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://twitter.com/biopset?ref=biopset"
                 target="_blank"
                 title="Follow us on Twitter"
               >
@@ -125,29 +128,29 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://discord.com/invite/yj4GtXbYuF"
                 target="_blank"
-                title="Like us on Facebook"
+                title="Connect with us on Discord"
               >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
+                <i className="fa fa-discord-square" />
+                <p className="d-lg-none">Discord</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://t.me/BIOPset"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Connect with us on Telegram"
               >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
+                <i className="fa fa-telegram" />
+                <p className="d-lg-none">Telegram</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/biopset"
                 target="_blank"
                 title="Star on GitHub"
               >
@@ -159,10 +162,10 @@ function ExamplesNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
+                href="https://biopset.com/app/"
                 target="_blank"
               >
-                <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
+                <i className="nc-icon nc-spaceship"></i> Launch dApp
               </Button>
             </NavItem>
           </Nav>
