@@ -58,8 +58,7 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             <img src={brandIcon} width="75px" height="75px" alt="white icon" />
-            <h1 style={{fontFamily: "octarine-bold"}}>binary options</h1>
-            <h4 style={{fontFamily: "octarine-bold"}}>settlement protocol</h4>
+            <h2 style={{fontFamily: "octarine-bold"}}>binary options <br /> settlement protocol</h2>
             <h6 style={{textTransform: "uppercase"}}>on-demand, peer-to-pool binary options</h6>
             <br />
             <Button
