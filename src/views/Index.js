@@ -159,6 +159,9 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
+        <div id="notifications">
+         <div class="alert-with-icon alert alert-danger fade show" role="alert"><div class="container"><div class="alert-wrapper"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><i class="nc-icon nc-simple-remove"></i></button><div class="message"><i class="nc-icon nc-bell-55"></i> This is a notification with close button and icon and have many lines. You can see that the icon and the close button are always vertically aligned. This is a beautiful notification. So you don't have to worry about the style.</div></div></div></div>
+        </div>
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Founders</h2>
