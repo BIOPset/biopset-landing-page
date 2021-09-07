@@ -70,7 +70,7 @@ function LandingPage() {
                       Make up to 2X returns on oracle updates for correctly predicting the direction
                       of ETH price fluctuations.
                     </p>
-                    <Button className="btn-link" color="info" href="#https://docs.biopset.com/theory/overview/benefits#traders">
+                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/buying-options">
                       Buy Options <i className="fa fa-info" />
                     </Button>
                   </div>
@@ -87,7 +87,7 @@ function LandingPage() {
                       Accumulate passive returns on ETH and improve your portfolio's asset value by 
                       earning premiums on stable ETH price.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/selling-options">
                       Sell Options <i className="fa fa-info" />
                     </Button>
                   </div>
@@ -104,7 +104,7 @@ function LandingPage() {
                       Earn a risk-free reward for settling in-the-money and out-of-the-money binary 
                       options at the end of each oracle update.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
                       Settle Options <i className="fa fa-info" />
                     </Button>
                   </div>
@@ -113,15 +113,15 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
+                    <i className="nc-icon nc-settings-gear-65" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Manage Growth</h4>
+                    <h4 className="info-title">Configure BIOPSET</h4>
                     <p>
                       Participate in the protocol's development and determine how fees accruing to 
                       the protocol's treasury are invested.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
                       Settlement DAO <i className="fa fa-info" />
                     </Button>
                   </div>
