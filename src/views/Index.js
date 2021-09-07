@@ -55,7 +55,7 @@ function LandingPage() {
     <>
       <ExamplesNavbar />
       <LandingPageHeader />
-      <div className="main">
+      <div id="main" className="main">
         <div className="section text-center">
           <Container>
             <Row>
@@ -71,12 +71,14 @@ function LandingPage() {
                 </h5>
                 <br />
                 <Button
+                  href="https://www.youtube.com/watch?v=G86wkheYmdc"
                   className="btn-round"
-                  color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  color="neutral"
+                  target="_blank"
+                  outline
                 >
-                  See Details
+                  <i className="fa fa-play" />
+                  Watch Video
                 </Button>
               </Col>
             </Row>

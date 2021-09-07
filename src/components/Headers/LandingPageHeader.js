@@ -61,18 +61,18 @@ function LandingPageHeader() {
             <h2 style={{fontFamily: "octarine-bold"}}>binary options <br /> settlement protocol</h2>
             <h6 style={{textTransform: "uppercase"}}>on-demand, peer-to-pool binary options</h6>
             <br />
-            <Button
-              href="https://www.youtube.com/watch?v=G86wkheYmdc"
-              className="btn-round mr-1"
-              color="neutral"
-              target="_blank"
-              outline
-            >
-              <i className="fa fa-play" />
-              Watch Video
-            </Button>
-            <Button href="https://biopset.com/app" className="btn-round" color="neutral" type="button" default>
+            <Button href="https://biopset.com/app" className="btn-round mr-1" color="neutral" type="button" default>
               Connect Wallet
+            </Button>
+            <Button
+              href="#main"
+              className="btn-round"
+              color="neutral"
+              outline
+              onClick={(e) => e.preventDefault()}
+            >
+              <i className="fa fa-info" />
+              Learn More
             </Button>
           </div>
         </Container>
