@@ -62,7 +62,7 @@ function LandingPageHeader() {
             <h6 style={{textTransform: "uppercase"}}>on-demand, peer-to-pool binary options</h6>
             <br />
             <Button href="https://biopset.com/app" className="btn-round mr-1" color="neutral" type="button" default>
-              Connect Wallet
+              Connect
             </Button>
             <Button
               href="#main"
@@ -72,7 +72,7 @@ function LandingPageHeader() {
               onClick={(e) => e.preventDefault()}
             >
               <i className="fa fa-info" />
-              Learn More
+              Learn
             </Button>
           </div>
         </Container>
