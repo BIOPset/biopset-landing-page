@@ -65,10 +65,10 @@ function LandingPageHeader() {
               outline
             >
               <i className="fa fa-play" />
-              Watch video
+              Learn More
             </Button>
             <Button className="btn-round" color="neutral" type="button" outline>
-              Launch dApp
+              Connect Wallet
             </Button>
           </div>
         </Container>
