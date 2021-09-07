@@ -59,7 +59,7 @@ function LandingPageHeader() {
           <div className="motto text-center">
             <img src={brandIcon} width="75px" height="75px" alt="white icon" />
             <h2 style={{fontFamily: "octarine-bold"}}>binary options <br /> settlement protocol</h2>
-            <h6 style={{textTransform: "uppercase"}}>on-demand, peer-to-pool binary options trading</h6>
+            <h6 style={{textTransform: "uppercase"}}>on-demand<br /> peer-to-pool<br /> binary options trading</h6>
             <br />
             <Button 
               href="https://biopset.com/app" 
