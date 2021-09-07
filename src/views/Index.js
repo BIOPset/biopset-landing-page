@@ -65,7 +65,7 @@ function LandingPage() {
                     <i className="nc-icon nc-sound-wave" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Double Funds</h4>
+                    <h5 className="info-title">Double Funds</h5>
                     <h6 className="description">
                       Make up to 2X returns on oracle updates for correctly predicting the direction
                       of ETH price fluctuations.
@@ -82,7 +82,7 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-pie-36" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Earn Yield</h4>
+                    <h5 className="info-title">Earn Yield</h5>
                     <h6>
                       Accumulate passive returns on ETH and improve your portfolio's asset value by 
                       earning premiums on stable ETH price.
@@ -99,7 +99,7 @@ function LandingPage() {
                     <i className="nc-icon nc-bank" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Collect Bounties</h4>
+                    <h5 className="info-title">Collect Bounties</h5>
                     <h6>
                       Earn a risk-free reward for settling in-the-money and out-of-the-money binary 
                       options at the end of each oracle update.
@@ -116,7 +116,7 @@ function LandingPage() {
                     <i className="nc-icon nc-settings-gear-65" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Configure BIOPSET</h4>
+                    <h5 className="info-title">Configure BIOPSET</h5>
                     <h6>
                       Participate in the protocol's development and determine how fees accrue to 
                       the protocol's treasury are invested.
@@ -137,12 +137,12 @@ function LandingPage() {
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <img src={brandIcon} width="10%" alt="brand icon" />
-                <h4 className="description">
+                <h3 className="description">
                   The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
 									clearinghouse for buying and selling binary options. All users ("<b>settlers</b>") may leverage the 
 									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
 									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
-                </h4>
+                </h3>
                 <h6 className="title">Do not use BIOPSET in regulated jurisdictions.</h6>
                 <br />
                 <Button
