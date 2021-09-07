@@ -66,10 +66,10 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Double Funds</h4>
-                    <p className="description">
+                    <h6 className="description">
                       Make up to 2X returns on oracle updates for correctly predicting the direction
                       of ETH price fluctuations.
-                    </p>
+                    </h6>
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/buying-options">
                       Buy Options <i className="fa fa-info" />
                     </Button>
@@ -83,10 +83,10 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Earn Yield</h4>
-                    <p>
+                    <h6>
                       Accumulate passive returns on ETH and improve your portfolio's asset value by 
                       earning premiums on stable ETH price.
-                    </p>
+                    </h6>
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/selling-options">
                       Sell Options <i className="fa fa-info" />
                     </Button>
@@ -100,10 +100,10 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Collect Bounties</h4>
-                    <p>
+                    <h6>
                       Earn a risk-free reward for settling in-the-money and out-of-the-money binary 
                       options at the end of each oracle update.
-                    </p>
+                    </h6>
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
                       Settle Options <i className="fa fa-info" />
                     </Button>
@@ -117,10 +117,10 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Configure BIOPSET</h4>
-                    <p>
-                      Participate in the protocol's development and determine how fees accruing to 
+                    <h6>
+                      Participate in the protocol's development and determine how fees accrue to 
                       the protocol's treasury are invested.
-                    </p>
+                    </h6>
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
                       Settlement DAO <i className="fa fa-info" />
                     </Button>
@@ -137,18 +137,18 @@ function LandingPage() {
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <img src={brandIcon} width="10%" alt="brand icon" />
-                <h5 className="description">
+                <h4 className="description">
                   The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
 									clearinghouse for buying and selling binary options. All users ("<b>settlers</b>") may leverage the 
 									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
 									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
-                </h5>
+                </h4>
                 <h6 className="title">Do not use BIOPSET in regulated jurisdictions.</h6>
                 <br />
                 <Button
                   href="https://www.youtube.com/watch?v=G86wkheYmdc"
                   className="btn-round"
-                  color="neutral"
+                  color="danger"
                   target="_blank"
                   outline
                 >
