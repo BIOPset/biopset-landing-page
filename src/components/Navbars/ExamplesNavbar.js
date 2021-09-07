@@ -132,7 +132,7 @@ function ExamplesNavbar() {
                 target="_blank"
                 title="Connect with us on Discord"
               >
-                <i className="fab fa-discord" />
+                <i className="nc-icon nc-discord" />
                 <p className="d-lg-none">Discord</p>
               </NavLink>
             </NavItem>
