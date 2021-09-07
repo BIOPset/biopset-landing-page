@@ -58,8 +58,8 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             <img src={brandIcon} width="75px" height="75px" alt="white icon" />
-            <h1>Binary Options</h1>
-            <h3>Settlement Protocol</h3>
+            <h1 style={{fontFamily: "octarine-bold"}}>binary options settlement protocol</h1>
+            <h3 style={{textTransform: "uppercase"}}>on-demand, peer-to-pool binary options</h3>
             <br />
             <Button
               href="https://www.youtube.com/watch?v=G86wkheYmdc"
