@@ -130,7 +130,16 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div className="section text-center">
+        <div
+          style={{
+            backgroundImage:
+              "url(" + require("assets/img/biopset-light-background-1920x1080px.jpg").default + ")",
+          }}
+          className="section text-center"
+          data-parallax={true}
+          ref={pageHeader}
+        >
+          <div className="filter" />
           <Container>
             <br />
             <br />
