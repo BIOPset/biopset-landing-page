@@ -59,32 +59,6 @@ function LandingPage() {
         <div className="section text-center">
           <Container>
             <Row>
-              <Col className="ml-auto mr-auto" md="8">
-                <img src={brandIcon} width="10%" alt="brand icon" />
-                <h2 className="title">on-demand, peer-to-pool binary options</h2>
-                <h5 className="description">
-                  The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
-									clearinghouse for buying and selling binary options. All users ("<b>settlers</b>") may leverage the 
-									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
-									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
-                  Do not use BIOPSET in regulated jurisdictions.
-                </h5>
-                <br />
-                <Button
-                  href="https://www.youtube.com/watch?v=G86wkheYmdc"
-                  className="btn-round"
-                  color="neutral"
-                  target="_blank"
-                  outline
-                >
-                  <i className="fa fa-play" />
-                  Watch Video
-                </Button>
-              </Col>
-            </Row>
-            <br />
-            <br />
-            <Row>
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
@@ -154,11 +128,36 @@ function LandingPage() {
                 </div>
               </Col>
             </Row>
+            <br />
+            <br />
+            <Row>
+              <Col className="ml-auto mr-auto" md="8">
+                <img src={brandIcon} width="10%" alt="brand icon" />
+                <h5 className="description">
+                  The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
+									clearinghouse for buying and selling binary options. All users ("<b>settlers</b>") may leverage the 
+									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
+									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
+                </h5>
+                <h2 className="title">Do not use BIOPSET in regulated jurisdictions.</h2>
+                <br />
+                <Button
+                  href="https://www.youtube.com/watch?v=G86wkheYmdc"
+                  className="btn-round"
+                  color="neutral"
+                  target="_blank"
+                  outline
+                >
+                  <i className="fa fa-play" />
+                  Watch Video
+                </Button>
+              </Col>
+            </Row>
           </Container>
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">Founders</h2>
             <Row>
               <Col md="4">
                 <Card className="card-profile card-plain">
