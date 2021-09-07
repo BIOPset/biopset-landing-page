@@ -61,7 +61,12 @@ function LandingPageHeader() {
             <h2 style={{fontFamily: "octarine-bold"}}>binary options <br /> settlement protocol</h2>
             <h6 style={{textTransform: "uppercase"}}>on-demand, peer-to-pool binary options trading</h6>
             <br />
-            <Button href="https://biopset.com/app" className="btn-round mr-1" color="danger" outline>
+            <Button 
+              href="https://biopset.com/app" 
+              className="btn-round" 
+              color="danger" 
+              outline
+            >
               <i className="fa fa-plug" />
               Connect
             </Button>
