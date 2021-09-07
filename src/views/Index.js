@@ -18,6 +18,9 @@
 */
 import React from "react";
 
+// brand icon
+import brandIcon from '../../assets/img/biop-brand-icon-128x128px.png';
+
 // reactstrap components
 import {
   Button,
@@ -57,6 +60,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
+                <img src={brandIcon} width="10%" alt="brand icon" />
                 <h2 className="title">on-demand, peer-to-pool binary options</h2>
                 <h5 className="description">
                   The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
