@@ -71,7 +71,7 @@ function LandingPage() {
                       of ETH price fluctuations.
                     </p>
                     <Button className="btn-link" color="info" href="#https://docs.biopset.com/theory/overview/benefits#traders">
-                      Learn More
+                      Buy Options <i className="fa fa-info" />
                     </Button>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ function LandingPage() {
                       remarkably power efficient.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                      Sell Options <i className="fa fa-info" />
                     </Button>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ function LandingPage() {
                       paper pastels.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                      Settle Options <i className="fa fa-info" />
                     </Button>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ function LandingPage() {
                       directly from our sellers.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                      Settlement DAO <i className="fa fa-info" />
                     </Button>
                   </div>
                 </div>
