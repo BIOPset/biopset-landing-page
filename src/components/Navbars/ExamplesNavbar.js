@@ -119,7 +119,7 @@ function ExamplesNavbar() {
                 href="https://discord.com/invite/yj4GtXbYuF"
                 target="_blank"
               >
-                <i className="nc-icon nc-chat-round" /> Support
+                <i className="nc-icon nc-chat-33" /> Support
               </NavLink>
             </NavItem>
             <NavItem>
