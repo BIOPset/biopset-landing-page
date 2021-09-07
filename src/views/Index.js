@@ -62,16 +62,16 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
+                    <i className="nc-icon nc-sound-wave" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">Double Up</h4>
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      Make up to 2X returns on oracle updates for correctly predicting the direction
+                      of ETH price fluctuations.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                    <Button className="btn-link" color="info" href="#https://docs.biopset.com/theory/overview/benefits#traders">
+                      Learn More
                     </Button>
                   </div>
                 </div>
