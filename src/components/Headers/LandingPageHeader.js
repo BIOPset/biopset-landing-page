@@ -54,7 +54,7 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <img src="assets/img/biop-white-icon-128x128px.png" width="75px" height="75px" alt="white icon" />
+            <img src="/assets/img/biop-white-icon-128x128px.png" width="75px" height="75px" alt="white icon" />
             <h1>Binary Options</h1>
             <h3>Settlement Protocol</h3>
             <br />
