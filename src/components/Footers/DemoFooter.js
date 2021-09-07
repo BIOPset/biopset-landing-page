@@ -57,9 +57,8 @@ function DemoFooter() {
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              © BIOPset {new Date().getFullYear()}, made with {" "}
-              <i className="fa fa-heart heart" /> by the 
-              <a href="https://discord.com/invite/yj4GtXbYuF" target="_blank"> Settlement DAO</a>.
+              © BIOPset {new Date().getFullYear()} {" "}
+              <i className="fa fa-heart heart" />
             </span>
           </div>
         </Row>
