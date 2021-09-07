@@ -56,7 +56,7 @@ function LandingPage() {
       <ExamplesNavbar />
       <LandingPageHeader />
       <div id="main" className="main">
-        <div className="section text-center">
+        <div className="section section-gold text-center">
           <Container>
             <Row>
               <Col md="3">
@@ -128,6 +128,10 @@ function LandingPage() {
                 </div>
               </Col>
             </Row>
+          </Container>
+        </div>
+        <div className="section text-center">
+          <Container>
             <br />
             <br />
             <Row>
