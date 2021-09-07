@@ -139,7 +139,7 @@ function LandingPage() {
 									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
 									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
                 </h5>
-                <h2 className="title">Do not use BIOPSET in regulated jurisdictions.</h2>
+                <h6 className="title">Do not use BIOPSET in regulated jurisdictions.</h6>
                 <br />
                 <Button
                   href="https://www.youtube.com/watch?v=G86wkheYmdc"
