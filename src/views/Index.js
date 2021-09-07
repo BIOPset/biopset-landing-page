@@ -57,13 +57,13 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
+                <h2 className="title">on-demand, peer-to-pool binary options</h2>
                 <h5 className="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information. Remember that by this time, the user is curious,
-                  otherwise he wouldn't scroll to get here. Add a button if you
-                  want the user to see more.
+                  The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
+									clearinghouse for buying and selling binary options. All users ("<b>settlers</b>") may leverage the 
+									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
+									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
+                  Do not use BIOPSET in regulated jurisdictions.
                 </h5>
                 <br />
                 <Button
