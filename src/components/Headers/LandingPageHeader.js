@@ -65,9 +65,9 @@ function LandingPageHeader() {
               outline
             >
               <i className="fa fa-play" />
-              Learn More
+              Watch Video
             </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
+            <Button href="https://biopset.com/app" className="btn-round" color="neutral" type="button" default>
               Connect Wallet
             </Button>
           </div>
