@@ -65,7 +65,7 @@ function LandingPage() {
                     <i className="nc-icon nc-sound-wave" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Double Up</h4>
+                    <h4 className="info-title">Double Funds</h4>
                     <p className="description">
                       Make up to 2X returns on oracle updates for correctly predicting the direction
                       of ETH price fluctuations.
@@ -79,13 +79,13 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
+                    <i className="nc-icon nc-chart-pie-36" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">Earn Yield</h4>
                     <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
+                      Accumulate passive returns on ETH and improve your portfolio's asset value by 
+                      earning premiums on stable ETH price.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       Sell Options <i className="fa fa-info" />
@@ -96,13 +96,13 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
+                    <i className="nc-icon nc-bank" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Collect Bounties</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
+                      Earn a risk-free reward for settling in-the-money and out-of-the-money binary 
+                      options at the end of each oracle update.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       Settle Options <i className="fa fa-info" />
@@ -116,10 +116,10 @@ function LandingPage() {
                     <i className="nc-icon nc-sun-fog-29" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
+                    <h4 className="info-title">Manage Growth</h4>
                     <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
+                      Participate in the protocol's development and determine how fees accruing to 
+                      the protocol's treasury are invested.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       Settlement DAO <i className="fa fa-info" />
