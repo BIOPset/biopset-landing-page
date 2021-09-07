@@ -31,15 +31,7 @@ function DemoFooter() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
-                  target="_blank"
-                >
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  href="https://https//medium.com/biopset"
                   target="_blank"
                 >
                   Blog
@@ -47,18 +39,27 @@ function DemoFooter() {
               </li>
               <li>
                 <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
+                  href="https://docs.biopset.com/"
                   target="_blank"
                 >
-                  Licenses
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://discord.com/invite/yj4GtXbYuF"
+                  target="_blank"
+                >
+                  Support
                 </a>
               </li>
             </ul>
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              © BIOPset {new Date().getFullYear()}, made with {" "}
+              <i className="fa fa-heart heart" /> by the 
+              <a href="https://discord.com/invite/yj4GtXbYuF" target="_blank"> Settlement DAO</a>.
             </span>
           </div>
         </Row>
