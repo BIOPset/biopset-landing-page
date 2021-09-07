@@ -136,17 +136,6 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://discord.com/invite/yj4GtXbYuF"
-                target="_blank"
-                title="Connect with us on Discord"
-              >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Discord</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
                 href="https://t.me/BIOPset"
                 target="_blank"
                 title="Connect with us on Telegram"
