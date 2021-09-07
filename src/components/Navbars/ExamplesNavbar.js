@@ -116,6 +116,14 @@ function ExamplesNavbar() {
             </NavItem>
             <NavItem>
               <NavLink
+                href="https://discord.com/invite/yj4GtXbYuF"
+                target="_blank"
+              >
+                <i className="nc-icon nc-chat-round" /> Support
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/biopset?ref=biopset"
                 target="_blank"
