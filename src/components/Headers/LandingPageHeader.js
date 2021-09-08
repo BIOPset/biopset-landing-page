@@ -79,7 +79,7 @@ function LandingPageHeader() {
               onClick={(e) => e.preventDefault()}
             >
               <i className="fa fa-info" />
-              Learn
+              Read Introduction
             </Button>
           </div>
         </Container>
