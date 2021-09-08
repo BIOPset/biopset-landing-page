@@ -49,7 +49,7 @@ function LandingPage() {
     () => {
       window.setTimeout(function() {
         document.body.className = '';
-      }, 213);
+      }, 21300);
 
       return () => { document.body.className = 'is-preload' }
     });
