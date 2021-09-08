@@ -48,8 +48,12 @@ function LandingPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
+    window.setTimeout(function() {
+      document.body.className = '';
+    }, 213);
     return function cleanup() {
       document.body.classList.remove("profile-page");
+      document.body.className = 'is-preload'
     };
   });
   return (
