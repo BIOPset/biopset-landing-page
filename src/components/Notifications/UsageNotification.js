@@ -17,7 +17,7 @@ function UsageNotification() {
                 <i class="nc-icon nc-simple-remove" />
               </button>
               <div class="message">
-                <h6><i class="nc-icon nc-bell-55" /> PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.</h6>
+                <h6>PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.</h6>
               </div>
             </div>
           </div>
