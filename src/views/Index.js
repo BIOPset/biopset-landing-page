@@ -41,6 +41,7 @@ import {
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
+import UsageNotification from "components/Notifications/UsageNotification.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 function LandingPage() {
@@ -55,6 +56,7 @@ function LandingPage() {
     <>
       <ExamplesNavbar />
       <LandingPageHeader />
+      <UsageNotification />
       <div id="main" className="main">
         <div className="section section-gold text-center">
           <Container>
@@ -165,20 +167,6 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
-        </div>
-        <div id="notifications">
-         <div class="alert-with-icon alert alert-danger fade show" role="alert">
-           <div class="container">
-             <div class="alert-wrapper">
-               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                 <i class="nc-icon nc-simple-remove"></i>
-                </button>
-                <div class="message">
-                   <i class="nc-icon nc-bell-55"></i> DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div className="section section-dark text-center">
           <Container>
