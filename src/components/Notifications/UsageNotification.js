@@ -13,7 +13,7 @@ function UsageNotification() {
         <div className="alert-with-icon alert alert-danger fade show" role="alert">
           <div className="container">
             <div className="alert-wrapper">
-              <button type="button" className="close" dataDismiss="alert" ariaLabel="Close">
+              <button type="button" className="close" data-dismiss="alert" aria-label="Close">
                 <i className="nc-icon nc-simple-remove" />
               </button>
               <div className="message">
