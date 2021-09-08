@@ -120,7 +120,7 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
-                      Settlement DAO
+                      Manage BIOPSET
                     </Button>
                     <h6 className="info-title">Configure The Protocol</h6>
                     <h6>
