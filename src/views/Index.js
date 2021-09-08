@@ -87,8 +87,8 @@ function LandingPage() {
                     </Button>
                     <h6 className="info-title">Make Passive Yield</h6>
                     <h6>
-                      Accumulate returns on ETH assets and gradually improve your portfolio's size by 
-                      earning premiums on stable ETH price.
+                      Accumulate returns on your assets and gradually improve your portfolio size  
+                      earning premiums writing binary options.
                     </h6>
                   </div>
                 </div>
