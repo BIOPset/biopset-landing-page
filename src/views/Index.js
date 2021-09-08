@@ -40,7 +40,6 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import UsageNotification from "components/Notifications/UsageNotification.js";
 import BenefitsRibbon from "components/Ribbons/BenefitsRibbon.js"
-import BlogRibbon from "components/Ribbons/BlogRibbon.js"
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 function LandingPage() {
@@ -58,7 +57,6 @@ function LandingPage() {
       <div id="main" className="main">
         <BenefitsRibbon />
         <UsageNotification />
-        <BlogRibbon />
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Founders</h2>
