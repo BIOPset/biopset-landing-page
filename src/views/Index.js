@@ -65,14 +65,14 @@ function LandingPage() {
                     <i className="nc-icon nc-sound-wave" />
                   </div>
                   <div className="description">
-                    <h5 className="info-title">Double Funds</h5>
+                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/buying-options">
+                      Buy Options <i className="fa fa-info-circle" />
+                    </Button>
+                    <h6 className="info-title">Double Funds</h6>
                     <h6 className="description">
                       Make up to 2X returns on oracle updates for correctly predicting the direction
                       of ETH price fluctuations.
                     </h6>
-                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/buying-options">
-                      Buy Options <i className="fa fa-info" />
-                    </Button>
                   </div>
                 </div>
               </Col>
