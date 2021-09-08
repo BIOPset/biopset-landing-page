@@ -69,7 +69,7 @@ function LandingPageHeader() {
               outline
             >
               <i className="fa fa-plug" />
-              Connect
+              Connect Wallet
             </Button>
             <Button
               href="#main"
@@ -79,7 +79,7 @@ function LandingPageHeader() {
               onClick={(e) => e.preventDefault()}
             >
               <i className="fa fa-info" />
-              Read Introduction
+              Why BIOPSET?
             </Button>
           </div>
         </Container>
