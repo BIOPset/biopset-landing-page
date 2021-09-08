@@ -73,6 +73,7 @@ function LandingPage() {
                       Make up to 2X returns on the premiums paid whenever you correctly predict the direction
                       of ETH prices between oracle updates.
                     </h6>
+                    <br />
                   </div>
                 </div>
               </Col>
@@ -83,13 +84,14 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/selling-options">
-                      Sell Options <i className="fa fa-info" />
+                      Sell Options
                     </Button>
                     <h6 className="info-title">Make Passive Yield</h6>
                     <h6>
                       Accumulate returns on your assets and gradually improve your portfolio size  
                       earning premiums writing binary options.
                     </h6>
+                    <br />
                   </div>
                 </div>
               </Col>
@@ -100,12 +102,12 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
-                      Settle Options <i className="fa fa-info" />
+                      Settle Options
                     </Button>
                     <h6 className="info-title">Earn Predictable Bounties</h6>
                     <h6>
-                      Collect risk-free rewards for settling in-the-money and out-of-the-money binary 
-                      options at the end of each oracle update. *
+                      Collect risk-free rewards whenever oracle updates are received for settling 
+                      binary options positions for traders/writers. *
                     </h6>
                   </div>
                 </div>
@@ -121,8 +123,8 @@ function LandingPage() {
                     </Button>
                     <h6 className="info-title">Configure The Protocol</h6>
                     <h6>
-                      Participate in the protocol's development and determine how fees accrue to 
-                      the protocol's treasury are invested.
+                      Participate in the protocol development and help determine how fees that accrue
+                      to the protocol's treasury are best allocated.
                     </h6>
                   </div>
                 </div>
