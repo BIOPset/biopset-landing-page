@@ -109,6 +109,7 @@ function LandingPage() {
                       Collect risk-free rewards whenever oracle updates are received for settling 
                       binary options positions for traders/writers. *
                     </h6>
+                    <br />
                   </div>
                 </div>
               </Col>
@@ -119,13 +120,14 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
-                      Settlement DAO <i className="fa fa-info" />
+                      Settlement DAO
                     </Button>
                     <h6 className="info-title">Configure The Protocol</h6>
                     <h6>
                       Participate in the protocol development and help determine how fees that accrue
                       to the protocol's treasury are best allocated.
                     </h6>
+                    <br />
                   </div>
                 </div>
               </Col>
