@@ -3,7 +3,7 @@
 import React from "react";
 
 // brand icon
-import brandIcon from '../assets/img/biop-brand-icon-128x128px.png';
+import brandIcon from '../../assets/img/biop-brand-icon-128x128px.png';
 
 // reactstrap components
 import { Row, Container } from "reactstrap";
