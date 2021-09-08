@@ -165,7 +165,7 @@ function LandingPage() {
                 </Button>
                 <Button
                   href="https://https//medium.com/biopset"
-                  className="btn-round"
+                  className="btn-round mr-4"
                   color="default"
                   outline
                   onClick={(e) => e.preventDefault()}
