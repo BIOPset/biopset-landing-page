@@ -138,8 +138,6 @@ function LandingPage() {
         <UsageNotification />
         <div className="section text-center">
           <Container>
-            <br />
-            <br />
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <img src={brandIcon} width="10%" alt="brand icon" />
