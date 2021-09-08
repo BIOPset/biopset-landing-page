@@ -142,9 +142,6 @@ function LandingPage() {
             <br />
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <div id="blog-content-wrapper">
-                  <div id="medium-widget" />
-                </div>
                 <img src={brandIcon} width="10%" alt="brand icon" />
                 <h6 className="title">The Aspiration</h6>
                 <h6 className="description">
@@ -175,6 +172,11 @@ function LandingPage() {
                   Research Blog
                 </Button>
               </Col>
+            </Row>
+            <Row>
+              <div id="blog-content-wrapper">
+                  <div id="medium-widget" />
+              </div>
             </Row>
           </Container>
         </div>
