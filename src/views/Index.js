@@ -87,7 +87,7 @@ function LandingPage() {
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/selling-options">
                       Sell Options
                     </Button>
-                    <h6 className="info-title">Make Passive Yield</h6>
+                    <h6 className="info-title">Make Passive Income</h6>
                     <h6>
                       Accumulate returns on your assets and gradually improve your portfolio size  
                       earning premiums writing binary options.
