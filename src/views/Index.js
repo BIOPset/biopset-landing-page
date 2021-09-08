@@ -72,8 +72,8 @@ function LandingPage() {
                     <h6 className="description">
                       Make up to 2X returns on the premiums paid whenever you correctly predict the direction
                       of ETH prices between oracle updates.
-                      <a href="https://docs.biopset.com/theory/fundamentals/buying-options"><i className="fa fa-info-circle" /></a>
                     </h6>
+                    <a href="https://docs.biopset.com/theory/fundamentals/buying-options"><i className="fa fa-info-circle" /></a>
                   </div>
                 </div>
               </Col>
