@@ -66,12 +66,13 @@ function LandingPage() {
                   </div>
                   <div className="description">
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/buying-options">
-                      Buy Options <i className="fa fa-info-circle" />
+                      Buy Options
                     </Button>
                     <h6 className="info-title">Double Your Wealth</h6>
                     <h6 className="description">
-                      Make up to 2X returns on oracle updates for correctly predicting the direction
-                      of ETH price fluctuations.
+                      Make up to 2X returns on the premiums paid whenever you correctly predict the direction
+                      of ETH prices between oracle updates.
+                      <a href="https://docs.biopset.com/theory/fundamentals/buying-options"><i className="fa fa-info-circle" /></a>
                     </h6>
                   </div>
                 </div>
