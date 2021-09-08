@@ -27,4 +27,4 @@ function UsageNotification() {
   );
 }
 
-export default DemoFooter;
+export default UsageNotification;
