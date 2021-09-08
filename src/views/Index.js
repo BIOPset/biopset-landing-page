@@ -56,7 +56,6 @@ function LandingPage() {
     <>
       <ExamplesNavbar />
       <LandingPageHeader />
-      <UsageNotification />
       <div id="main" className="main">
         <div className="section section-gold text-center">
           <Container>
@@ -136,6 +135,7 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
+        <UsageNotification />
         <div className="section text-center">
           <Container>
             <br />
@@ -146,14 +146,13 @@ function LandingPage() {
                   <div id="medium-widget" />
                 </div>
                 <img src={brandIcon} width="10%" alt="brand icon" />
-                <h6 className="title">Our Aspiration</h6>
+                <h6 className="title">The Aspiration</h6>
                 <h6 className="description">
                   The binary options settlement protocol ("<b>BIOPSET</b>") aims to be the most transparent programmatic 
 									clearinghouse for buying and selling binary options and esure all users ("<b>settlers</b>") may leverage the 
 									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
 									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
                 </h6>
-                <br />
                 <Button
                   href="https://www.youtube.com/watch?v=G86wkheYmdc"
                   className="btn-round"
@@ -163,6 +162,16 @@ function LandingPage() {
                 >
                   <i className="fa fa-play" />
                   Watch Video
+                </Button>
+                <Button
+                  href="https://https//medium.com/biopset"
+                  className="btn-round"
+                  color="neutral"
+                  outline
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <i className="fa fa-info" />
+                  Read Blog
                 </Button>
               </Col>
             </Row>
