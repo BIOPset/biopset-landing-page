@@ -56,31 +56,24 @@ function LandingPageHeader() {
       >
         <div className="filter" />
         <Container>
-        <Row>
           <div className="motto text-center">
             <img src={brandIcon} width="75px" height="75px" alt="white icon" />
             <h2 style={{fontFamily: "octarine-bold"}}>binary options <br /> settlement protocol</h2>
             <br />
             <h6 style={{textTransform: "uppercase"}}>on-demand<br /> peer-to-pool<br /> binary options trading</h6>
             <br />
-          </div>
-        </Row>
-        <Row>
-          <Col md="6">
             <Button 
               href="https://biopset.com/app" 
-              className="btn-round" 
+              className="btn-round mr-4" 
               color="danger" 
               outline
             >
               <i className="fa fa-plug" />
               Connect Wallet
             </Button>
-          </Col>
-          <Col md="6">
             <Button
               href="#main"
-              className="btn-round"
+              className="btn-round mr-4"
               color="neutral"
               outline
               onClick={(e) => e.preventDefault()}
@@ -88,8 +81,7 @@ function LandingPageHeader() {
               <i className="fa fa-info" />
               Why BIOPSET?
             </Button>
-          </Col>
-        </Row>
+          </div>
         </Container>
       </div>
     </>
