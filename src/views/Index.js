@@ -44,27 +44,7 @@ import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import UsageNotification from "components/Notifications/UsageNotification.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
-// define 5 second delay
-const delay = 5;
-
 function LandingPage() {
-  const [show, setShow] = React.useState(false);
-
-  React.useEffect(
-    () => { 
-      let timer1 = setTimeout(() => setShow(true), delay * 1000);
-      return () => {
-        clearTimeout(timer1);
-      };
-    },[]
-  );
-
-  return show ? (
-    <div>show is true, {delay} seconds passed</div>
-  ) : (
-    <div>show is false, wait {delay} seconds</div>
-  );
-
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
