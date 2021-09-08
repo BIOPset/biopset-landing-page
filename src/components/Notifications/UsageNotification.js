@@ -8,7 +8,7 @@ import { Row, Container } from "reactstrap";
 function UsageNotification() {
   return (
     
-    <div id="notifications">
+    <div id="usagenotification" className="section text-center">
       <div class="alert-with-icon alert alert-danger fade show" role="alert">
         <div class="container">
           <div class="alert-wrapper">
