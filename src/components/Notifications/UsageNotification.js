@@ -16,7 +16,7 @@ function UsageNotification() {
               <button type="button" className="close" dataDismiss="alert" ariaLabel="Close">
                 <i className="nc-icon nc-simple-remove" />
               </button>
-              <div class="message">
+              <div className="message">
                 <h6>PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.</h6>
               </div>
             </div>
