@@ -56,7 +56,6 @@ function LandingPage() {
     <>
       <ExamplesNavbar />
       <LandingPageHeader />
-      <UsageNotification />
       <div id="main" className="main">
         <div className="section section-gold text-center">
           <Container>
@@ -164,6 +163,7 @@ function LandingPage() {
                   <i className="fa fa-play" />
                   Watch Video
                 </Button>
+                <UsageNotification />
               </Col>
             </Row>
           </Container>
