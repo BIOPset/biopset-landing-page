@@ -155,7 +155,7 @@ function LandingPage() {
                 </h6>
                 <Button
                   href="https://www.youtube.com/watch?v=G86wkheYmdc"
-                  className="btn-round"
+                  className="btn-round mr-4"
                   color="danger"
                   target="_blank"
                   outline
@@ -166,12 +166,12 @@ function LandingPage() {
                 <Button
                   href="https://https//medium.com/biopset"
                   className="btn-round"
-                  color="neutral"
+                  color="default"
                   outline
                   onClick={(e) => e.preventDefault()}
                 >
                   <i className="fa fa-info" />
-                  Read Blog
+                  Research Blog
                 </Button>
               </Col>
             </Row>
