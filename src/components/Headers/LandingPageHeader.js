@@ -73,7 +73,7 @@ function LandingPageHeader() {
             </Button>
             <Button
               href="#main"
-              className="btn-round"
+              className="btn-round mr-4"
               color="neutral"
               outline
               onClick={(e) => e.preventDefault()}
