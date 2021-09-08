@@ -45,6 +45,14 @@ import UsageNotification from "components/Notifications/UsageNotification.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 function LandingPage() {
+  React.useEffect(
+    () => {
+      window.setTimeout(function() {
+        document.body.className = '';
+      }, 213);
+
+      return () => { document.body.className = 'is-preload' }
+    });
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
