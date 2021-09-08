@@ -82,7 +82,7 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-pie-36" />
                   </div>
                   <div className="description">
-                    <h5 className="info-title">Earn Yield</h5>
+                    <h6 className="info-title">Earn Yield</h6>
                     <h6>
                       Accumulate passive returns on ETH and improve your portfolio's asset value by 
                       earning premiums on stable ETH price.
@@ -99,7 +99,7 @@ function LandingPage() {
                     <i className="nc-icon nc-bank" />
                   </div>
                   <div className="description">
-                    <h5 className="info-title">Collect Bounties</h5>
+                    <h6 className="info-title">Collect Bounties</h6>
                     <h6>
                       Earn a risk-free reward for settling in-the-money and out-of-the-money binary 
                       options at the end of each oracle update.
@@ -116,7 +116,7 @@ function LandingPage() {
                     <i className="nc-icon nc-settings-gear-65" />
                   </div>
                   <div className="description">
-                    <h5 className="info-title">Configure BIOPSET</h5>
+                    <h6 className="info-title">Configure BIOPSET</h6>
                     <h6>
                       Participate in the protocol's development and determine how fees accrue to 
                       the protocol's treasury are invested.
