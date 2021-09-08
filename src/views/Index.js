@@ -53,7 +53,7 @@ function LandingPage() {
     }, 213);
     return function cleanup() {
       document.body.classList.remove("profile-page");
-      document.body.className = 'is-preload'
+      document.body.className = 'sidebar-collapse'
     };
   });
   return (
