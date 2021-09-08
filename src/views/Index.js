@@ -153,6 +153,7 @@ function LandingPage() {
 									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
 									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
                 </h6>
+                <br />
                 <Button
                   href="https://www.youtube.com/watch?v=G86wkheYmdc"
                   className="btn-round mr-4"
