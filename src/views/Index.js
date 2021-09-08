@@ -136,6 +136,9 @@ function LandingPage() {
             <br />
             <Row>
               <Col className="ml-auto mr-auto" md="8">
+                <div id="blog-content-wrapper">
+                  <div id="medium-widget" />
+                </div>
                 <img src={brandIcon} width="10%" alt="brand icon" />
                 <h3 className="description">
                   The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
