@@ -144,9 +144,10 @@ function LandingPage() {
                   <div id="medium-widget" />
                 </div>
                 <img src={brandIcon} width="10%" alt="brand icon" />
+                <h6 className="title">Our Aspiration</h6>
                 <h6 className="description">
-                  The binary options settlement protocol ("<b>BIOPSET</b>") is the most transparent programmatic 
-									clearinghouse for buying and selling binary options. All users ("<b>settlers</b>") may leverage the 
+                  The binary options settlement protocol ("<b>BIOPSET</b>") aims to be the most transparent programmatic 
+									clearinghouse for buying and selling binary options and esure all users ("<b>settlers</b>") may leverage the 
 									protocol to earn fees for settling on-demand binary options offered by liquidity providers 
 									("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
                 </h6>
