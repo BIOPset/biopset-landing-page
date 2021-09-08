@@ -68,7 +68,7 @@ function LandingPage() {
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/buying-options">
                       Buy Options <i className="fa fa-info-circle" />
                     </Button>
-                    <h6 className="info-title">Double Funds</h6>
+                    <h6 className="info-title">Double Your Wealth</h6>
                     <h6 className="description">
                       Make up to 2X returns on oracle updates for correctly predicting the direction
                       of ETH price fluctuations.
@@ -82,14 +82,14 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-pie-36" />
                   </div>
                   <div className="description">
-                    <h6 className="info-title">Earn Yield</h6>
-                    <h6>
-                      Accumulate passive returns on ETH and improve your portfolio's asset value by 
-                      earning premiums on stable ETH price.
-                    </h6>
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/selling-options">
                       Sell Options <i className="fa fa-info" />
                     </Button>
+                    <h6 className="info-title">Make Passive Yield</h6>
+                    <h6>
+                      Accumulate returns on ETH assets and gradually improve your portfolio's size by 
+                      earning premiums on stable ETH price.
+                    </h6>
                   </div>
                 </div>
               </Col>
@@ -99,14 +99,14 @@ function LandingPage() {
                     <i className="nc-icon nc-bank" />
                   </div>
                   <div className="description">
-                    <h6 className="info-title">Collect Bounties</h6>
-                    <h6>
-                      Earn a risk-free reward for settling in-the-money and out-of-the-money binary 
-                      options at the end of each oracle update.
-                    </h6>
                     <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
                       Settle Options <i className="fa fa-info" />
                     </Button>
+                    <h6 className="info-title">Earn Predictable Bounties</h6>
+                    <h6>
+                      Collect risk-free rewards for settling in-the-money and out-of-the-money binary 
+                      options at the end of each oracle update. *
+                    </h6>
                   </div>
                 </div>
               </Col>
@@ -116,14 +116,14 @@ function LandingPage() {
                     <i className="nc-icon nc-settings-gear-65" />
                   </div>
                   <div className="description">
-                    <h6 className="info-title">Configure BIOPSET</h6>
+                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
+                      Settlement DAO <i className="fa fa-info" />
+                    </Button>
+                    <h6 className="info-title">Configure The Protocol</h6>
                     <h6>
                       Participate in the protocol's development and determine how fees accrue to 
                       the protocol's treasury are invested.
                     </h6>
-                    <Button className="btn-link" color="info" href="https://docs.biopset.com/theory/fundamentals/exercising-options">
-                      Settlement DAO <i className="fa fa-info" />
-                    </Button>
                   </div>
                 </div>
               </Col>
