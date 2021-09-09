@@ -26,7 +26,6 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 // index sections
 import Benefits from "views/index-sections/Benefits.js";
 import Aspiration from "views/index-sections/Aspiration";
-import Video from "views/index-sections/Video";
 import Blog from "views/index-sections/Blog";
 import Founders from "views/index-sections/Founders";
 import Notification from "views/index-sections/Notification.js";
@@ -47,7 +46,6 @@ function LandingPage() {
       <div id="main" className="main">
         <Benefits />
         <Aspiration />
-        <Video />
         <Blog />
         <Founders />
         <Notification />
