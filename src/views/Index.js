@@ -58,8 +58,7 @@ function LandingPage() {
     if (!loaded) return;
     // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
 
-    return function mediumWidget() {
-      window.MediumWidget.Init({
+    window.MediumWidget.Init({
         renderTo: "#medium-widget",
         params: {
           resource: "https://medium.com/biopset",
@@ -69,8 +68,8 @@ function LandingPage() {
           fields: ["description", "author", "claps", "publishAt"],
           ratio: "landscape"
         }
-      })
-    }
+    })
+  
   }, [loaded])
 
   document.documentElement.classList.remove("nav-open");
