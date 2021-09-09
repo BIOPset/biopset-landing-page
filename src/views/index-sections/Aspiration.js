@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Col, Row, Container, Button } from "reactstrap";
+import { Col, Row, Container, Button, Modal } from "reactstrap";
 
 // brand icon
 import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
