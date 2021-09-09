@@ -2,23 +2,12 @@
 import React from "react";
 
 // reactstrap components
-import { Alert, Container } from "reactstrap";
+import { Row, Container } from "reactstrap";
 
 // core components
 
 function Notification() {
-  const [alertDanger, setAlertDanger] = React.useState(true);
 
-  React.useEffect(() => {
-    if (alertDanger) return;
-    // the alert should be removed.
-
-    return () => {
-      document.body.getElementsByTagName.remove("danger-notification");
-    };
-  
-  }, [alertDanger])
-    
   return (
     <div className="section section-gold text-center">
       <Container>
