@@ -44,6 +44,9 @@ import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import UsageNotification from "components/Notifications/UsageNotification.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
+// index sections
+import Notification from "views/index-sections/Notification.js";
+
 function LandingPage() {
   const [loaded, setLoaded] = React.useState(false);
 
@@ -89,6 +92,7 @@ function LandingPage() {
       <ExamplesNavbar />
       <LandingPageHeader />
       <div id="main" className="main">
+        <Notification />
         <div className="section section-gold text-center">
           <Container>
             <Row>
