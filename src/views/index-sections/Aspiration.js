@@ -20,6 +20,7 @@ function Aspiration() {
           "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
       }}
     >
+      <div className="filter" />
       <Container>
         <Row>
           <Col className="ml-auto mr-auto" md="8">
