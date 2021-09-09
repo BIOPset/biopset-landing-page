@@ -32,6 +32,16 @@ function LandingPageHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
+    if (alertDanger) return;
+    // the alert should be removed.
+
+    return () => {
+      document.getElementById.remove("danger-notification");
+    };
+  
+  }, [alertDanger])
+    
+    React.useEffect(() => {
     if (window.innerWidth < 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
@@ -85,7 +95,7 @@ function LandingPageHeader() {
             </Button>
           </div>
         </Container>
-        <div id="notifications">
+        <div id="danger-notification">
           <Alert className="alert-with-icon" color="danger" isOpen={alertDanger}>
             <Container>
               <div className="alert-wrapper">
