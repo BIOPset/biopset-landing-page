@@ -22,7 +22,7 @@ function Benefits() {
                   Buy Options
                 </Button>
                 <h6 className="info-title">Double Your Wealth</h6>
-                <h6 className="description">
+                <h6 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
                   Make up to 2X returns on the premiums paid whenever you correctly predict the direction
                   of ETH prices between oracle updates.
                 </h6>
@@ -40,7 +40,7 @@ function Benefits() {
                   Sell Options
                 </Button>
                 <h6 className="info-title">Make Passive Income</h6>
-                <h6>
+                <h6 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
                   Accumulate returns on your assets and gradually improve your portfolio size  
                   earning premiums writing binary options.
                 </h6>
@@ -58,7 +58,7 @@ function Benefits() {
                   Settle Options
                 </Button>
                 <h6 className="info-title">Earn Predictable Bounties</h6>
-                <h6>
+                <h6 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
                   Collect risk-free rewards whenever oracle updates are received for settling 
                   binary options positions for traders/writers. *
                 </h6>
@@ -76,7 +76,7 @@ function Benefits() {
                   Manage BIOPSET
                 </Button>
                 <h6 className="info-title">Configure The Protocol</h6>
-                <h6>
+                <h6 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
                   Participate in the protocol development and help determine how fees that accrue
                   to the protocol's treasury are best allocated.
                 </h6>
