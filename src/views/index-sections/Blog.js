@@ -42,7 +42,7 @@ function Blog() {
     <div className="section text-center">
     <Container>
       <Row>
-        <Col className="ml-auto mr-auto" md="8">
+        <Col className="ml-auto mr-auto" xs="10">
           <div id="medium-widget" />
         </Col>
       </Row>
