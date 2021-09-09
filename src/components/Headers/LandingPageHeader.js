@@ -64,7 +64,7 @@ function LandingPageHeader() {
             <br />
             <Button
               className="btn-round mr-4"
-              color="warning"
+              color="danger"
               href="https://biopset.com/app/"
               target="_blank"
               outline
