@@ -45,17 +45,42 @@ import UsageNotification from "components/Notifications/UsageNotification.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 function LandingPage() {
+  const [loaded, setLoaded] = React.useState(false);
+
+  React.useEffect(() => {
+    const scriptTag = document.createElement('script');
+    scriptTag.src = "https://medium-widget.pixelpoint.io/widget.js";
+    scriptTag.addEventListener('load', () => setLoaded(true));
+    document.body.appendChild(scriptTag);
+  }, []);
+
+  React.useEffect(() => {
+    if (!loaded) return;
+    // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
+
+    return function mediumWidget() {
+      MediumWidget.Init({
+        renderTo: "#medium-widget",
+        params: {
+          resource: "https://medium.com/usefulcoin",
+          postsPerLine: 1,
+          limit: 2,
+          picture: "big",
+          fields: ["description", "author", "claps", "publishAt"],
+          ratio: "landscape"
+        }
+      })
+    }
+  }, [loaded])
+
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
-    window.setTimeout(function() {
-      document.body.className = '';
-    }, 213);
     return function cleanup() {
       document.body.classList.remove("profile-page");
-      document.body.className = 'sidebar-collapse'
     };
   });
+
   return (
     <>
       <ExamplesNavbar />
