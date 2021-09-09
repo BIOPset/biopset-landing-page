@@ -34,7 +34,7 @@ function Notification() {
               <i className="nc-icon nc-simple-remove" />
             </button>
             <div className="message">
-              <i className="nc-icon nc-bell-55" /> PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.
+              PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.
             </div>
           </div>
         </Container>
