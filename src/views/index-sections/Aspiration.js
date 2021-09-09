@@ -49,10 +49,10 @@ function Aspiration() {
             }}
           >
             <Row>
-              <Col className="ml-auto mr-auto" md="8">
+              <Col className="ml-auto mr-auto" xs="8">
                 <img src={brandIcon} width="10%" alt="brand icon" />
-                <h2 className="title">Aspiration</h2>
-                <h5 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
+                <h2 className="title" style={{paddingBottom: "50px"}}>Aspiration</h2>
+                <h5 className="description" style={{paddingBottom: "50px", fontFamily: "octarine-bold", textTransform: "lowercase"}}>
                   The binary options settlement protocol ("<span style={{color: '#3E3F3F'}}>BIOPSET</span>") aims to be the most transparent programmatic 
                   clearinghouse for buying and selling binary options and esure all users ("<span style={{color: '#FFFFFF'}}>settlers</span>") may leverage the 
                   protocol to earn fees for settling on-demand binary options offered by liquidity providers 
