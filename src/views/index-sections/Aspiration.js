@@ -54,7 +54,7 @@ function Aspiration() {
             }}
           >
             <Row>
-              <Col className="ml-auto mr-auto" md="10">
+              <Col className="ml-auto mr-auto" xs="10">
                 <img src={brandIcon} width="10%" style={{paddingBottom: "50px"}} alt="brand icon" />
                 <h5 style={{paddingBottom: "50px", fontFamily: "octarine-bold", textTransform: "lowercase"}}>
                   The binary options settlement protocol ("<span style={{color: '#D60000'}}>BIOPSET</span>") aims to be the most transparent programmatic 
