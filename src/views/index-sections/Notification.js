@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Alert, Button, Container } from "reactstrap";
+import { Alert, Container } from "reactstrap";
 
 // core components
 

@@ -22,26 +22,14 @@ import React from "react";
 import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 
 // reactstrap components
-import { Alert, Button, Container } from "reactstrap";
+import { Button, Container } from "reactstrap";
 
 // core components
 
 function LandingPageHeader() {
-  const [alertDanger, setAlertDanger] = React.useState(true);
-
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
-    if (alertDanger) return;
-    // the alert should be removed.
-
-    return () => {
-      document.body.getElementsByTagName.remove("danger-notification");
-    };
-  
-  }, [alertDanger])
-    
-    React.useEffect(() => {
     if (window.innerWidth < 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
