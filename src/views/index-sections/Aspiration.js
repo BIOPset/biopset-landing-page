@@ -120,7 +120,7 @@ function Aspiration() {
                   href="#video"
                   className="btn-round mr-4"
                   color="primary"
-                  onClick={(e) => e.preventDefault()}
+                  onClick={toggleBlogModal}
                 >
                   <i className="fa fa-search" />
                   Research Blog
@@ -144,7 +144,7 @@ function Aspiration() {
                     </h5>
                   </div>
                   <div className="modal-body ml-auto mr-auto" xs="10">
-                  <iframe width="100%" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div id="medium-widget" />
                   </div>
                   <div className="modal-footer">
                     <div className="left-side">
