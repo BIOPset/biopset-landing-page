@@ -54,7 +54,8 @@ function Aspiration() {
               </h5>
             </Col>
           </Row>
-          <Button
+          <Row>
+            <Button
               href="#blog"
               className="btn-round mr-4"
               color="danger"
@@ -72,6 +73,7 @@ function Aspiration() {
               <i className="fa fa-play" />
               Watch Video
             </Button>
+          </Row>
         </div>
       </Container>
     </div>
