@@ -41,7 +41,6 @@ import {
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import UsageNotification from "components/Notifications/UsageNotification.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
@@ -92,8 +91,8 @@ function LandingPage() {
       <ExamplesNavbar />
       <LandingPageHeader />
       <div id="main" className="main">
-        <Notification />
         <div className="section section-gold text-center">
+          <Notification />
           <Container>
             <Row>
               <Col md="3">
@@ -171,7 +170,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <UsageNotification />
         <div className="section text-center">
           <Container>
             <Row>
