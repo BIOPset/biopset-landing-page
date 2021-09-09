@@ -62,11 +62,12 @@ function LandingPageHeader() {
             <br />
             <h6 style={{textTransform: "uppercase"}}>on-demand<br /> peer-to-pool<br /> binary options trading</h6>
             <br />
-            <Button 
-              href="https://biopset.com/app" 
-              className="btn-round mr-4" 
-              color="danger" 
-              outline
+            <Button
+              className="btn-round mr-4"
+              color="default"
+              href="https://biopset.com/app/"
+              target="_blank"
+              default
             >
               <i className="fa fa-plug" />
               Connect Wallet
