@@ -59,7 +59,7 @@ function LandingPage() {
     // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
 
     return function mediumWidget() {
-      window.MediumWidget.Init({
+      MediumWidget.Init({
         renderTo: "#medium-widget",
         params: {
           resource: "https://medium.com/biopset",
