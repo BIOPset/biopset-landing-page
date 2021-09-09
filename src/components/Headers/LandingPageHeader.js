@@ -22,11 +22,13 @@ import React from "react";
 import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Alert, Button, Container } from "reactstrap";
 
 // core components
 
 function LandingPageHeader() {
+  const [alertDanger, setAlertDanger] = React.useState(true);
+
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -83,6 +85,26 @@ function LandingPageHeader() {
             </Button>
           </div>
         </Container>
+        <div id="notifications">
+          <Alert className="alert-with-icon" color="danger" isOpen={alertDanger}>
+            <Container>
+              <div className="alert-wrapper">
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                  onClick={() => setAlertDanger(false)}
+                >
+                  <i className="nc-icon nc-simple-remove" />
+                </button>
+                <div className="message">
+                  <i className="nc-icon nc-bell-55" /> PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.
+                </div>
+              </div>
+            </Container>
+          </Alert>
+        </div>
       </div>
     </>
   );
