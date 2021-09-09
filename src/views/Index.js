@@ -21,7 +21,7 @@ import React from "react";
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import IndexFooter from "components/Footers/IndexFooter.js";
 
 // index sections
 import Benefits from "views/index-sections/Benefits.js";
@@ -83,7 +83,7 @@ function LandingPage() {
         <Founders />
         <Notification />
       </div>
-      <DemoFooter />
+      <IndexFooter />
     </>
   );
 }
