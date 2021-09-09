@@ -29,6 +29,12 @@ import { Button, Container } from "reactstrap";
 function LandingPageHeader() {
   let pageHeader = React.createRef();
 
+  React.useEffect(() => { 
+    return function whitenAction() {
+      document.getElementsByTagName("#priority-action").style("color: white");
+    }
+  });
+
   React.useEffect(() => {
     if (window.innerWidth < 991) {
       const updateScroll = () => {
@@ -63,6 +69,7 @@ function LandingPageHeader() {
             <h6 style={{textTransform: "uppercase"}}>on-demand<br /> peer-to-pool<br /> binary options trading</h6>
             <br />
             <Button
+              id="priority-action"
               className="btn-round mr-4"
               color="danger"
               href="https://biopset.com/app/"
