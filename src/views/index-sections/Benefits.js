@@ -6,7 +6,7 @@ import { Row, Container } from "reactstrap";
 
 // core components
 
-function Notification() {
+function Benefits() {
 
   return (
     <div className="section section-gold text-center">
@@ -90,4 +90,4 @@ function Notification() {
   );
 }
 
-export default Notification;
+export default Benefits;
