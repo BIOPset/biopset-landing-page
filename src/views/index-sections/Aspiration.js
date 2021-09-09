@@ -13,12 +13,14 @@ function Aspiration() {
 
   return (
     <div 
-      className="section section-dark text-center" 
       style={{
         backgroundSize: "cover",
         backgroundImage:
           "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
       }}
+      className="page-header"
+      data-parallax={true}
+      ref={pageHeader}
     >
       <div className="filter" />
       <Container>
