@@ -10,14 +10,14 @@ import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 // core components
 
 function Aspiration() {
-  const [modal, setVideoModal] = React.useState(false);
+  const [videoModal, setVideoModal] = React.useState(false);
   const toggleVideoModal = () => {
-    setVideoModal(!modal);
+    setVideoModal(!videoModal);
   };
 
-  const [modal, setBlogModal] = React.useState(false);
+  const [blogModal, setBlogModal] = React.useState(false);
   const toggleBlogModal = () => {
-    setBlogModal(!modal);
+    setBlogModal(!blogModal);
   };
 
   return (
@@ -77,7 +77,7 @@ function Aspiration() {
                   Watch Video
                 </Button>
                 {/* Video Modal */}
-                <Modal isOpen={modal} toggle={toggleVideoModal}>
+                <Modal isOpen={videoModal} toggle={toggleVideoModal}>
                   <div className="modal-header">
                     <button
                       aria-label="Close"
@@ -126,7 +126,7 @@ function Aspiration() {
                   Research Blog
                 </Button>
                 {/* Video Modal */}
-                <Modal isOpen={modal} toggle={toggleBlogModal}>
+                <Modal isOpen={blogModal} toggle={toggleBlogModal}>
                   <div className="modal-header">
                     <button
                       aria-label="Close"
