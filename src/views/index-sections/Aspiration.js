@@ -90,7 +90,7 @@ function Aspiration() {
                     </h5>
                   </div>
                   <div className="modal-body ml-auto mr-auto" xs="10">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="100%" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div className="modal-footer">
                     <div className="left-side">
