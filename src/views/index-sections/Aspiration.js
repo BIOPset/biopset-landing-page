@@ -54,6 +54,24 @@ function Aspiration() {
               </h5>
             </Col>
           </Row>
+          <Button
+              href="#blog"
+              className="btn-round mr-4"
+              color="danger"
+              onClick={(e) => e.preventDefault()}
+            >
+              <i className="fa fa-search" />
+              Research Blog
+            </Button>
+            <Button
+              href="#video"
+              className="btn-round mr-4"
+              color="primary"
+              onClick={(e) => e.preventDefault()}
+            >
+              <i className="fa fa-play" />
+              Watch Video
+            </Button>
         </div>
       </Container>
     </div>
