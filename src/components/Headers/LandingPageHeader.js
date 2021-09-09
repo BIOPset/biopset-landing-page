@@ -36,7 +36,7 @@ function LandingPageHeader() {
     // the alert should be removed.
 
     return () => {
-      document.getElementById.remove("danger-notification");
+      document.getElementById("danger-notification").remove;
     };
   
   }, [alertDanger])
