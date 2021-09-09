@@ -58,6 +58,7 @@ function LandingPage() {
     if (!loaded) return;
     // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
 
+    window.mediumWidget();
     return function mediumWidget() {
       window.MediumWidget.Init({
         renderTo: "#medium-widget",
