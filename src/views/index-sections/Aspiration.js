@@ -10,9 +10,9 @@ import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 // core components
 
 function Aspiration() {
-  const [modal, setModal] = React.useState(false);
-  const toggleModal = () => {
-    setModal(!modal);
+  const [modal, setVideoModal] = React.useState(false);
+  const toggleVideoModal = () => {
+    setVideoModal(!modal);
   };
 
   return (
@@ -66,25 +66,25 @@ function Aspiration() {
                   href="#blog"
                   className="btn-round mr-4"
                   color="danger"
-                  onClick={toggleModal}
+                  onClick={toggleVideoModal}
                 >
                   <i className="fa fa-search" />
                   Research Blog
                 </Button>
-                {/* Modal */}
-                <Modal isOpen={modal} toggle={toggleModal}>
+                {/* Video Modal */}
+                <Modal isOpen={modal} toggle={toggleVideoModal}>
                   <div className="modal-header">
                     <button
                       aria-label="Close"
                       className="close"
                       type="button"
-                      onClick={toggleModal}
+                      onClick={toggleVideoModal}
                     >
                       <span aria-hidden={true}>×</span>
                     </button>
                     <h5
                       className="modal-title text-center"
-                      id="exampleModalLabel"
+                      id="exampleVideoModalLabel"
                     >
                       Recent Articles
                     </h5>
@@ -98,7 +98,7 @@ function Aspiration() {
                         className="btn-link"
                         color="default"
                         type="button"
-                        onClick={toggleModal}
+                        onClick={toggleVideoModal}
                       >
                         Close
                       </Button>
