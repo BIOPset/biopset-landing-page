@@ -31,7 +31,7 @@ function LandingPageHeader() {
 
   React.useEffect(() => { 
     return function whitenAction() {
-      document.getElementsByTagName("#priority-action").style("color: white");
+      document.getElementsByTagName("#priority-action").style="color: white";
     }
   });
 
