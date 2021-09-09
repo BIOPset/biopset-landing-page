@@ -9,7 +9,7 @@ import { Col, Row, Container } from "reactstrap";
 function Video() {
 
   return (
-    <div className="section text-center">
+    <div className="section section-dark text-center">
     <Container>
       <Row>
         <Col className="ml-auto mr-auto" md="8">

@@ -18,7 +18,7 @@ import {
 function Founders() {
 
   return (
-    <div className="section section-dark text-center">
+    <div className="section text-center">
       <Container>
         <h2 className="title">Founders</h2>
         <Row>

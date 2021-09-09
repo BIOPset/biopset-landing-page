@@ -16,7 +16,7 @@ function Aspiration() {
       className="section text-center" 
       style={{
         backgroundImage:
-          "url(" + require("assets/img/biopset-white-background-1920x1080px.jpg").default + ")",
+          "url(" + require("assets/img/biopset-light-background-1920x1080px.jpg").default + ")",
       }}
     >
     <Container>
