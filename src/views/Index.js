@@ -62,11 +62,11 @@ function LandingPage() {
         renderTo: "#medium-widget",
         params: {
           resource: "https://medium.com/biopset",
-          postsPerLine: 1,
+          postsPerLine: 2,
           limit: 2,
           picture: "big",
           fields: ["description", "author", "claps", "publishAt"],
-          ratio: "landscape"
+          ratio: "portrait"
         }
     })
 
