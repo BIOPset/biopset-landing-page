@@ -17,13 +17,13 @@ function Aspiration() {
       <Row>
         <Col className="ml-auto mr-auto" md="8">
           <img src={brandIcon} width="10%" alt="brand icon" />
-          <h6 className="title">The Aspiration</h6>
-          <p className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
+          <h1 className="title">The Aspiration</h1>
+          <h5 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
             The binary options settlement protocol ("<b>BIOPSET</b>") aims to be the most transparent programmatic 
             clearinghouse for buying and selling binary options and esure all users ("<b>settlers</b>") may leverage the 
             protocol to earn fees for settling on-demand binary options offered by liquidity providers 
             ("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
-          </p>
+          </h5>
         </Col>
       </Row>
     </Container>
