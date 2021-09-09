@@ -15,7 +15,7 @@ function Aspiration() {
     <div 
       className="section section-dark text-center" 
       style={{
-        backgroundSize: cover,
+        backgroundSize: "cover",
         backgroundImage:
           "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
       }}
