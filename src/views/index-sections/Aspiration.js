@@ -12,23 +12,29 @@ import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 function Aspiration() {
 
   return (
-    <div className="section section-dark text-center" >
-    <Container>
-      <Row>
-        <Col className="ml-auto mr-auto" md="8">
-          <img src={brandIcon} width="10%" alt="brand icon" />
-          <h1 className="title">The Aspiration</h1>
-          <h5 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
-            The binary options settlement protocol ("<b>BIOPSET</b>") aims to be the most transparent programmatic 
-            clearinghouse for buying and selling binary options and esure all users ("<b>settlers</b>") may leverage the 
-            protocol to earn fees for settling on-demand binary options offered by liquidity providers 
-            ("<b>writers</b>") seeking to earn premiums from price speculators ("<b>traders</b>"). 
-          </h5>
-        </Col>
-      </Row>
-    </Container>
-  </div>
-  
+    <div 
+      className="section section-dark text-center" 
+      style={{
+        backgroundSize: cover,
+        backgroundImage:
+          "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
+      }}
+    >
+      <Container>
+        <Row>
+          <Col className="ml-auto mr-auto" md="8">
+            <img src={brandIcon} width="10%" alt="brand icon" />
+            <h3 className="title">The Aspiration</h3>
+            <h5 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>
+              The binary options settlement protocol ("<span style="color: red">BIOPSET</span>") aims to be the most transparent programmatic 
+              clearinghouse for buying and selling binary options and esure all users ("<span style="color: red">settlers</span>") may leverage the 
+              protocol to earn fees for settling on-demand binary options offered by liquidity providers 
+              ("<span style="color: red">writers</span>") seeking to earn premiums from price speculators ("<span style="color: red">traders</span>"). 
+            </h5>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
