@@ -33,7 +33,7 @@ function LandingPageHeader() {
     return function whitenAction() {
       document.getElementsByTagName("#priority-action").style="color: white";
     }
-  });
+  }, []);
 
   React.useEffect(() => {
     if (window.innerWidth < 991) {
