@@ -66,6 +66,26 @@ function LandingPageHeader() {
         data-parallax={true}
         ref={pageHeader}
       >
+        <div id="danger-notification">
+          <Alert className="alert-with-icon" color="danger" isOpen={alertDanger}>
+            <Container>
+              <div className="alert-wrapper">
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                  onClick={() => setAlertDanger(false)}
+                >
+                  <i className="nc-icon nc-simple-remove" />
+                </button>
+                <div className="message">
+                  <i className="nc-icon nc-bell-55" /> PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.
+                </div>
+              </div>
+            </Container>
+          </Alert>
+        </div>
         <div className="filter" />
         <Container>
           <div className="motto text-center">
@@ -93,26 +113,6 @@ function LandingPageHeader() {
               <i className="fa fa-info" />
               Why BIOPSET?
             </Button>
-            <div id="danger-notification">
-              <Alert className="alert-with-icon" color="danger" isOpen={alertDanger}>
-                <Container>
-                  <div className="alert-wrapper">
-                    <button
-                      type="button"
-                      className="close"
-                      data-dismiss="alert"
-                      aria-label="Close"
-                      onClick={() => setAlertDanger(false)}
-                    >
-                      <i className="nc-icon nc-simple-remove" />
-                    </button>
-                    <div className="message">
-                      <i className="nc-icon nc-bell-55" /> PLEASE DO NOT USE BIOPSET IN REGULATED JURISDICTIONS.
-                    </div>
-                  </div>
-                </Container>
-              </Alert>
-            </div>
           </div>
         </Container>
       </div>
