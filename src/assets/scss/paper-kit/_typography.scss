@@ -11,13 +11,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4{
 
 }
 h1, .h1 {
-    font-family: octarine-bold;
     font-size: $font-size-h1;
-    text-transform: lowercase;
 }
 h2, .h2{
+    font-family: octarine-bold;
     font-size: $font-size-h2;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 h3, .h3{
     font-size: $font-size-h3;
