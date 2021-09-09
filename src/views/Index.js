@@ -205,6 +205,7 @@ function LandingPage() {
                 </Button>
               </Col>
             </Row>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <div id="medium-widget" />
