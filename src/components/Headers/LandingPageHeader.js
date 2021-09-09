@@ -93,7 +93,6 @@ function LandingPageHeader() {
               <i className="fa fa-info" />
               Why BIOPSET?
             </Button>
-            <br />
             <div id="danger-notification">
               <Alert className="alert-with-icon" color="danger" isOpen={alertDanger}>
                 <Container>
