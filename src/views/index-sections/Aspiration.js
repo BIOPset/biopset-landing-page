@@ -10,6 +10,37 @@ import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 // core components
 
 function Aspiration() {
+  const [loaded, setLoaded] = React.useState(false);
+
+  React.useEffect(() => {
+    const scriptTag = document.createElement('script');
+    scriptTag.src = "https://medium-widget.pixelpoint.io/widget.js";
+    scriptTag.addEventListener('load', () => setLoaded(true));
+    document.body.appendChild(scriptTag);
+  }, []);
+
+  React.useEffect(() => {
+    if (!loaded) return;
+    // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
+
+    window.MediumWidget.Init({
+        renderTo: "#medium-widget",
+        params: {
+          resource: "https://medium.com/biopset",
+          postsPerLine: 1,
+          limit: 2,
+          picture: "big",
+          fields: ["description", "author", "claps", "publishAt"],
+          ratio: "landscape"
+        }
+    })
+
+    return () => {
+      window.MediumWidget.unmount();
+    };
+  
+  }, [loaded]);
+
   const [videoModal, setVideoModal] = React.useState(false);
   const toggleVideoModal = () => {
     setVideoModal(!videoModal);
@@ -144,7 +175,7 @@ function Aspiration() {
                     </h5>
                   </div>
                   <div className="modal-body ml-auto mr-auto" xs="10">
-                  <div id="medium-widget" />
+                    <div id="medium-widget" />
                   </div>
                   <div className="modal-footer">
                     <div className="left-side">
