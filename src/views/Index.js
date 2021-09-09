@@ -58,12 +58,11 @@ function LandingPage() {
     if (!loaded) return;
     // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
 
-    window.mediumWidget();
     return function mediumWidget() {
       window.MediumWidget.Init({
         renderTo: "#medium-widget",
         params: {
-          resource: "https://medium.com/usefulcoin",
+          resource: "https://medium.com/biopset",
           postsPerLine: 1,
           limit: 2,
           picture: "big",
