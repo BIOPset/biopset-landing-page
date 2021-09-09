@@ -13,14 +13,23 @@ function Aspiration() {
 
   return (
     <div 
-      className="section section-dark text-center" 
+      className="section text-center" 
       style={{
-        backgroundSize: "cover",
         backgroundImage:
           "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
       }}
     >
-      <div className="filter" />
+      <div style={{
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        content: "",
+        display: block,
+        height: "100%",
+        left: 0,
+        top: 0,
+        position: absolute,
+        width: "100%",
+        zIndex: "1"
+      }} />
       <Container>
         <Row>
           <Col className="ml-auto mr-auto" md="8">
