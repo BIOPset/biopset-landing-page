@@ -64,10 +64,10 @@ function LandingPageHeader() {
             <br />
             <Button
               className="btn-round mr-4"
-              color="default"
+              color="warning"
               href="https://biopset.com/app/"
               target="_blank"
-              default
+              outline
             >
               <i className="fa fa-plug" />
               Connect Wallet
