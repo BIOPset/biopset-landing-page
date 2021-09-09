@@ -48,6 +48,7 @@ function LandingPage() {
         <Benefits />
         <Aspiration />
         <Video />
+        <Blog />
         <Founders />
         <Notification />
       </div>
