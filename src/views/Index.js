@@ -388,7 +388,6 @@ function LandingPage() {
                 <Form className="contact-form">
                   <Row>
                     <Col md="8">
-                      <label>Email</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
