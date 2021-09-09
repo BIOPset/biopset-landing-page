@@ -15,6 +15,11 @@ function Aspiration() {
     setVideoModal(!modal);
   };
 
+  const [modal, setBlogModal] = React.useState(false);
+  const toggleBlogModal = () => {
+    setBlogModal(!modal);
+  };
+
   return (
     <div 
       className="section text-center" 
@@ -68,8 +73,8 @@ function Aspiration() {
                   color="danger"
                   onClick={toggleVideoModal}
                 >
-                  <i className="fa fa-search" />
-                  Research Blog
+                  <i className="fa fa-play" />
+                  Watch Video
                 </Button>
                 {/* Video Modal */}
                 <Modal isOpen={modal} toggle={toggleVideoModal}>
@@ -86,7 +91,7 @@ function Aspiration() {
                       className="modal-title text-center"
                       id="exampleVideoModalLabel"
                     >
-                      Recent Articles
+                      Video Archive
                     </h5>
                   </div>
                   <div className="modal-body ml-auto mr-auto" xs="10">
@@ -117,9 +122,49 @@ function Aspiration() {
                   color="primary"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <i className="fa fa-play" />
-                  Watch Video
+                  <i className="fa fa-search" />
+                  Research Blog
                 </Button>
+                {/* Video Modal */}
+                <Modal isOpen={modal} toggle={toggleBlogModal}>
+                  <div className="modal-header">
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      type="button"
+                      onClick={toggleBlogModal}
+                    >
+                      <span aria-hidden={true}>×</span>
+                    </button>
+                    <h5
+                      className="modal-title text-center"
+                      id="exampleBlogModalLabel"
+                    >
+                      Recent Articles
+                    </h5>
+                  </div>
+                  <div className="modal-body ml-auto mr-auto" xs="10">
+                  <iframe width="100%" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div className="modal-footer">
+                    <div className="left-side">
+                      <Button
+                        className="btn-link"
+                        color="default"
+                        type="button"
+                        onClick={toggleBlogModal}
+                      >
+                        Close
+                      </Button>
+                    </div>
+                    <div className="divider" />
+                    <div className="right-side">
+                      <Button className="btn-link" color="danger" type="button">
+                        More
+                      </Button>
+                    </div>
+                  </div>
+                </Modal>
               </Col>
             </Row>
           </div>
