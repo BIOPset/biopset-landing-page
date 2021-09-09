@@ -66,7 +66,7 @@ function LandingPage() {
           limit: 2,
           picture: "big",
           fields: ["description", "author", "claps", "publishAt"],
-          ratio: "portrait"
+          ratio: "landscape"
         }
     })
 
