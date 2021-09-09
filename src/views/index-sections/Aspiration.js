@@ -22,11 +22,11 @@ function Aspiration() {
       <div style={{
         backgroundColor: "rgba(0, 0, 0, 0.5)",
         content: "",
-        display: block,
+        display: "block",
         height: "100%",
         left: 0,
         top: 0,
-        position: absolute,
+        position: "absolute",
         width: "100%",
         zIndex: "1"
       }} />
