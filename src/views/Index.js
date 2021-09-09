@@ -204,9 +204,9 @@ function LandingPage() {
               </Col>
             </Row>
             <Row>
-              <div id="blog-content-wrapper">
-                  <div id="medium-widget" />
-              </div>
+              <Col className="ml-auto mr-auto" md="8">
+                <div id="medium-widget" />
+              </Col>
             </Row>
           </Container>
         </div>
