@@ -387,7 +387,7 @@ function LandingPage() {
                 <h2 className="text-center">Latest Developments</h2>
                 <Form className="contact-form">
                   <Row>
-                    <Col md="6">
+                    <Col md="8">
                       <label>Email</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
