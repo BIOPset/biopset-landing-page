@@ -4,12 +4,21 @@ import React from "react";
 // reactstrap components
 import { Row, Container } from "reactstrap";
 
+// brand icon
+import brandIcon from '../assets/img/biop-brand-icon-128x128px.png';
+
 // core components
 
 function Aspiration() {
 
   return (
-    <div className="section text-center">
+    <div 
+      className="section text-center" 
+      style={{
+        backgroundImage:
+          "url(" + require("assets/img/biopset-white-background-1920x1080px.jpg").default + ")",
+      }}
+    >
     <Container>
       <Row>
         <Col className="ml-auto mr-auto" md="8">

@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Container } from "reactstrap";
+import { Col, Row, Button, Container } from "reactstrap";
 
 // core components
 

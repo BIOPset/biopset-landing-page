@@ -2,7 +2,16 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Container } from "reactstrap";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardTitle,
+  Container,
+  Row,
+  Col,
+} from "reactstrap";
 
 // core components
 
