@@ -397,7 +397,7 @@ function LandingPage() {
                         <Input placeholder="Email" type="text" />
                       </InputGroup>
                     </Col>
-                    <Col className="ml-auto mr-auto" md="4">
+                    <Col md="4">
                       <Button className="btn-fill" color="danger" size="lg">
                         Subscribe
                       </Button>
