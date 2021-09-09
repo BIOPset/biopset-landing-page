@@ -18,23 +18,6 @@
 */
 import React from "react";
 
-// reactstrap components
-import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
-
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
@@ -42,10 +25,10 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 import Benefits from "views/index-sections/Benefits.js";
-import Aspiration from "./index-sections/Aspiration";
-import Video from "./index-sections/Video";
-import Blog from "./index-sections/Blog";
-import Founders from "./index-sections/Founders";
+import Aspiration from "views/index-sections/Aspiration";
+import Video from "views/index-sections/Video";
+import Blog from "views/index-sections/Blog";
+import Founders from "views/index-sections/Founders";
 import Notification from "views/index-sections/Notification.js";
 
 function LandingPage() {
