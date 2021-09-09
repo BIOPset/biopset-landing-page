@@ -69,6 +69,10 @@ function LandingPage() {
           ratio: "landscape"
         }
     })
+
+    return () => {
+      window.MediumWidget.unmount();
+    };
   
   }, [loaded])
 
