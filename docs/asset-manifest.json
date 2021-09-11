@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/biopset-landing-page/static/css/main.2eb731da.chunk.css",
-    "main.js": "/biopset-landing-page/static/js/main.57074f58.chunk.js",
-    "main.js.map": "/biopset-landing-page/static/js/main.57074f58.chunk.js.map",
+    "main.js": "/biopset-landing-page/static/js/main.773a67c5.chunk.js",
+    "main.js.map": "/biopset-landing-page/static/js/main.773a67c5.chunk.js.map",
     "runtime-main.js": "/biopset-landing-page/static/js/runtime-main.c2fc7156.js",
     "runtime-main.js.map": "/biopset-landing-page/static/js/runtime-main.c2fc7156.js.map",
     "static/css/2.95429190.chunk.css": "/biopset-landing-page/static/css/2.95429190.chunk.css",
-    "static/js/2.287e7416.chunk.js": "/biopset-landing-page/static/js/2.287e7416.chunk.js",
-    "static/js/2.287e7416.chunk.js.map": "/biopset-landing-page/static/js/2.287e7416.chunk.js.map",
+    "static/js/2.587868b0.chunk.js": "/biopset-landing-page/static/js/2.587868b0.chunk.js",
+    "static/js/2.587868b0.chunk.js.map": "/biopset-landing-page/static/js/2.587868b0.chunk.js.map",
     "index.html": "/biopset-landing-page/index.html",
     "static/css/2.95429190.chunk.css.map": "/biopset-landing-page/static/css/2.95429190.chunk.css.map",
     "static/css/main.2eb731da.chunk.css.map": "/biopset-landing-page/static/css/main.2eb731da.chunk.css.map",
-    "static/js/2.287e7416.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/2.287e7416.chunk.js.LICENSE.txt",
-    "static/js/main.57074f58.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/main.57074f58.chunk.js.LICENSE.txt",
+    "static/js/2.587868b0.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/2.587868b0.chunk.js.LICENSE.txt",
+    "static/js/main.773a67c5.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/main.773a67c5.chunk.js.LICENSE.txt",
     "static/media/antoine-barres.jpg": "/biopset-landing-page/static/media/antoine-barres.bc3299c2.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/biopset-landing-page/static/media/ayo-ogunseinde-2.f4af8f2c.jpg",
     "static/media/biopset-dark-background-1920x1080px.jpg": "/biopset-landing-page/static/media/biopset-dark-background-1920x1080px.4e9d78cd.jpg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.c2fc7156.js",
     "static/css/2.95429190.chunk.css",
-    "static/js/2.287e7416.chunk.js",
+    "static/js/2.587868b0.chunk.js",
     "static/css/main.2eb731da.chunk.css",
-    "static/js/main.57074f58.chunk.js"
+    "static/js/main.773a67c5.chunk.js"
   ]
 }
