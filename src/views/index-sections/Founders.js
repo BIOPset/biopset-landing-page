@@ -137,7 +137,7 @@ function Founders() {
                           type="button"
                           onClick={toggleShalaquianaModal}
                         >
-                          <i className="far fa-window-close" />
+                          <i className="fa fa-window-close" />
                         </Button>
                       </div>
                       <div className="divider" />
