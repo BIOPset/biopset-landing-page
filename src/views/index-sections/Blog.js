@@ -91,7 +91,13 @@ function Blog() {
                       toggle("1");
                     }}
                   >
-                    <h6 className="info-title">Read Latest Updates</h6>
+                    <Button
+                      className="btn-round mr-4"
+                      color="default"
+                    >
+                      <i className="fa fa-newspaper" />
+                      <h6 className="info-title">Read Latest Updates</h6>
+                    </Button>
                   </NavLink>
                 </NavItem>
                 <NavItem>
