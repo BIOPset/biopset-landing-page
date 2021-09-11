@@ -95,6 +95,7 @@ function Blog() {
                     <Button
                       className="btn-round mr-4"
                       color="default"
+                      outline
                     >
                       <i className="fa fa-newspaper" />
                       <h6 className="info-title">Read Latest Updates</h6>
