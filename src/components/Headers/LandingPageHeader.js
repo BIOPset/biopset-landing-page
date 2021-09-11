@@ -82,7 +82,7 @@ function LandingPageHeader() {
               className="btn-round mr-4"
               color="primary"
               onClick={() => animateScroll.scrollTo(ScrollToLink, {
-                smooth="{true}",
+                smooth={true},
                 offset="{50}",
                 duration="{500}",
                 delay="{1000}"
