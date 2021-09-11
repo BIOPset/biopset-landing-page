@@ -77,10 +77,9 @@ function LandingPageHeader() {
               Connect Wallet
             </Button>
             <Button
-              href="#main"
               className="btn-round mr-4"
               color="primary"
-              onClick={ () => animateScroll.scrollTo(500) }
+              onClick={ () => animateScroll.scrollTo(600) }
             >
               <i className="fa fa-info" />
               Why BIOPSET?
