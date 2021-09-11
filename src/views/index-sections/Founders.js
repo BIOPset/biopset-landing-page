@@ -112,7 +112,7 @@ function Founders() {
                   <a href="#dereek69" onClick={(e) => e.preventDefault()}>
                     <div className="author">
                       <CardTitle tag="h4">Zero</CardTitle>
-                      <h6 className="card-category">Designer</h6>
+                      <h6 className="card-category">Graphic Designer</h6>
                     </div>
                   </a>
                   <p className="card-description text-center">
@@ -151,7 +151,7 @@ function Founders() {
                   <a href="#dereek69" onClick={(e) => e.preventDefault()}>
                     <div className="author">
                       <CardTitle tag="h4">Dereek69</CardTitle>
-                      <h6 className="card-category">Developer</h6>
+                      <h6 className="card-category">Token Economist</h6>
                     </div>
                   </a>
                   <p className="card-description text-center">
@@ -190,7 +190,7 @@ function Founders() {
                   <a href="#munair" onClick={(e) => e.preventDefault()}>
                     <div className="author">
                       <CardTitle tag="h4">Munair</CardTitle>
-                      <h6 className="card-category">Developer</h6>
+                      <h6 className="card-category">Marketing Manager</h6>
                     </div>
                   </a>
                   <p className="card-description text-center">
