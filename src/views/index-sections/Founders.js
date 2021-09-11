@@ -78,11 +78,69 @@ function Founders() {
                       <h6 className="card-category">Core Developer</h6>
                     </div>
                   </a>
-                  <p className="card-description text-center">
-                    Teamwork is so important that it is virtually impossible
-                    for you to reach the heights of your capabilities or make
-                    the money that you want without becoming very good at it.
-                  </p>
+                  <Button
+                    href="#blog"
+                    className="btn-round mr-4"
+                    color="danger"
+                    onClick={toggleShalaquianaModal}
+                  >
+                    <i className="fa fa-info" />
+                  </Button>
+                  {/* Shalaquiana Modal */}
+                  <Modal isOpen={shalaquianaModal} toggle={toggleShalaquianaModal}>
+                    <div className="modal-header">
+                      <button
+                        aria-label="Close"
+                        className="close"
+                        type="button"
+                        onClick={toggleShalaquianaModal}
+                      >
+                        <span aria-hidden={true}>×</span>
+                      </button>
+                      <h5
+                        className="modal-title text-center"
+                        id="shalaquianaModalLabel"
+                      >
+                        Shalaquiana
+                      </h5>
+                    </div>
+                    <div className="modal-body ml-auto mr-auto" xs="10">
+                      <p>
+                        Shalaquiana is BIOPset’s primary developer. She developed the first versions of the protocol 
+                        independently and now works collaboratively with the rest of the team and the broader community 
+                        to refine the current version of the smart contracts and improve the web apps' UI/UX. 
+                      </p>
+                      <p>
+                        She also enjoys developing marketing content. In particular, she finds creating memes and other 
+                        light content a much-needed respite from leading development.
+                      </p>
+                      <p>
+                        Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
+                        decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
+                      </p>
+                      <p>
+                        Shalaquiana credentials are on display in the protocol's codebase.
+                      </p>
+                    </div>
+                    <div className="modal-footer">
+                      <div className="left-side">
+                        <Button
+                          className="btn-link"
+                          color="default"
+                          type="button"
+                          onClick={toggleShalaquianaModal}
+                        >
+                          Close
+                        </Button>
+                      </div>
+                      <div className="divider" />
+                      <div className="right-side">
+                        <Button className="btn-link" color="danger" type="button">
+                          More
+                        </Button>
+                      </div>
+                    </div>
+                  </Modal>
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
