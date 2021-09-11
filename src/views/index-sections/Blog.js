@@ -101,8 +101,8 @@ function Blog() {
                       toggle("3");
                     }}
                   >
-                    <i className="fa fa-comments text-danger" />
-                    <h6 className="info-title text-danger">Join Our Community</h6>
+                    <i className="fa fa-comments text-primary" />
+                    <h6 className="info-title text-primary">Join Our Community</h6>
                   </NavLink>
                 </NavItem>
               </Nav>
