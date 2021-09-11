@@ -81,7 +81,7 @@ function LandingPageHeader() {
               href="#main"
               className="btn-round mr-4"
               color="primary"
-              onClick={ () => animateScroll.scrollTo(700) }
+              onClick={ () => animateScroll.scrollTo("landingPageEnd") }
             >
               <i className="fa fa-info" />
               Why BIOPSET?
