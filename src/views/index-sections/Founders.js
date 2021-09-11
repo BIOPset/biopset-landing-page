@@ -18,9 +18,37 @@ import {
 function Founders() {
 
   return (
-    <div className="section text-center">
+    <div 
+      className="section text-center" 
+      style={{
+        backgroundImage:
+          "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
+        backgroundSize: "cover"
+      }}
+    >
+      <div 
+        style={{
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          content: "",
+          display: "block",
+          height: "100%",
+          left: 0,
+          top: 0,
+          position: "absolute",
+          width: "100%",
+          zIndex: "1"
+        }} 
+      />
       <Container>
-      <Container>
+        <div 
+          className="text-center"
+          style={{
+            textAlign: "left",
+            zIndex: 3,
+            color: "#fff",
+            position: "relative"      
+          }}
+        >
         <Row>
           <Col className="ml-auto mr-auto" md="10">
             <div className="title">
