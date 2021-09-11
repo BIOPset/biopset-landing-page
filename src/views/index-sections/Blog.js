@@ -125,11 +125,11 @@ function Blog() {
                 Take a look at this video if you are new to binary options and want to 
                 learn how BIOPset can be a benefit to you.
               </p>
-              <iframe width="100%" height="315" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </TabPane>
             <TabPane tabId="3">
               <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
-              <iframe src="https://discord.com/widget?id=795000201742909450&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              <iframe width="100%" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </TabPane>
           </TabContent>
         </Col>
