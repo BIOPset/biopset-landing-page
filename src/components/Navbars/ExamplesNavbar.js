@@ -100,7 +100,7 @@ function ExamplesNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink
-                href="https://https://medium.com/biopset"
+                href="https://medium.com/biopset"
                 target="_blank"
               >
                 <i className="nc-icon nc-layout-11" /> Blog
