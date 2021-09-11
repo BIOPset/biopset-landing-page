@@ -89,6 +89,7 @@ function LandingPageHeader() {
           </div>
         </Container>
       </div>
+      <ScrollToLink to="landingPageEnd" smooth={true} offset={500} duration={1000} delay={500}/>
     </>
   );
 }

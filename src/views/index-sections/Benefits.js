@@ -4,18 +4,12 @@ import React from "react";
 // reactstrap components
 import { Col, Row, Button, Container } from "reactstrap";
 
-// react-scroll components
-import {
-  Link as ScrollToLink
-} from "react-scroll";
-
 // core components
 
 function Benefits() {
 
   return (
     <div className="section section-gold text-center">
-      <ScrollToLink to="landingPageEnd" smooth={true} offset={500} duration={1000} delay={500}/>
       <Container>
         <Row>
           <Col md="3">
