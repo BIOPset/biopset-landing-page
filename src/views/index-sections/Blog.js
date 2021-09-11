@@ -80,7 +80,6 @@ function Blog() {
                     }}
                   >
                     <i className="fa fa-rss" />
-                    <h6>Read Latest Updates</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -91,7 +90,6 @@ function Blog() {
                     }}
                   >
                     <i className="fa fa-play" />
-                    <h6>Watch Featured Video</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -102,7 +100,6 @@ function Blog() {
                     }}
                   >
                     <i className="fa fa-comments" />
-                    <h6>Join Our Community</h6>
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -110,6 +107,7 @@ function Blog() {
           </div>
           <TabContent activeTab={activeTab} className="text-center">
             <TabPane tabId="1">
+             <h6>Read Latest Updates</h6>
               <p>
                 Keep up-to-date with everything that is happening at BIOPset via our Medium Blog. 
                 All official news is posted here.
@@ -117,18 +115,23 @@ function Blog() {
               <p>
                 Here is the latest news:
               </p>
+              <br />
               <div id="medium-widget" />
             </TabPane>
             <TabPane tabId="2">
+             <h6>Watch Featured Video</h6>
               <p>
                 Take a look at this video if you are new to binary options and want to 
                 learn how BIOPset can be a benefit to you.
               </p>
+              <br />
               <iframe width="100%" height="500px" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </TabPane>
             <TabPane tabId="3">
+             <h6>Join Our Community</h6>
               <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
               <iframe width="100%" height="500px" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              <br />
             </TabPane>
           </TabContent>
         </Col>
