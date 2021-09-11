@@ -25,7 +25,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 import Benefits from "views/index-sections/Benefits.js";
-import Blog from "views/index-sections/Blog.js";
+import SocialMedia from "views/index-sections/SocialMedia.js";
 import Founders from "views/index-sections/Founders";
 import Notification from "views/index-sections/Notification.js";
 
@@ -44,7 +44,7 @@ function LandingPage() {
       <LandingPageHeader />
       <div id="main" className="main">
         <Benefits />
-        <Blog />
+        <SocialMedia />
         <Founders />
         <Notification />
       </div>

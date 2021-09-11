@@ -3,7 +3,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
   NavItem,
   NavLink,
   Nav,
@@ -16,7 +15,7 @@ import {
 
 // core components
 
-function Blog() {
+function SocialMedia() {
   const [loaded, setLoaded] = React.useState(false);
   const [activeTab, setActiveTab] = React.useState("1");
   const toggle = (tab) => {
@@ -142,4 +141,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default SocialMedia;
