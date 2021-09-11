@@ -102,16 +102,6 @@ function SocialMedia() {
                     <i className="fa fa-comments" />
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink
-                    className={activeTab === "4" ? "active" : ""}
-                    onClick={() => {
-                      toggle("4");
-                    }}
-                  >
-                    <i className="fa fa-twitter" />
-                  </NavLink>
-                </NavItem>
               </Nav>
             </div>
           </div>
@@ -142,15 +132,6 @@ function SocialMedia() {
               <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
               <br />
               <iframe width="100%" height="500px" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-            </TabPane>
-            <TabPane tabId="4">
-              <h6>Receive Short Updates</h6>
-              <p>
-                Follow our Twitter feed if you are super busy but need to keep in touch and have no time
-                for Medium or Discord.
-              </p>
-              <br />
-              <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/OlCeLqmNLI">https://t.co/OlCeLqmNLI</a></p>&mdash; BIOPSET (@BIOPset) <a href="https://twitter.com/BIOPset/status/1411178436060712962?ref_src=twsrc%5Etfw">July 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </TabPane>
           </TabContent>
         </Col>
