@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/biopset-landing-page/static/css/main.3a53d2df.chunk.css",
-    "main.js": "/biopset-landing-page/static/js/main.206c9b3f.chunk.js",
-    "main.js.map": "/biopset-landing-page/static/js/main.206c9b3f.chunk.js.map",
+    "main.css": "/biopset-landing-page/static/css/main.1621055b.chunk.css",
+    "main.js": "/biopset-landing-page/static/js/main.35723357.chunk.js",
+    "main.js.map": "/biopset-landing-page/static/js/main.35723357.chunk.js.map",
     "runtime-main.js": "/biopset-landing-page/static/js/runtime-main.c2fc7156.js",
     "runtime-main.js.map": "/biopset-landing-page/static/js/runtime-main.c2fc7156.js.map",
     "static/css/2.95429190.chunk.css": "/biopset-landing-page/static/css/2.95429190.chunk.css",
-    "static/js/2.ab2fc7c8.chunk.js": "/biopset-landing-page/static/js/2.ab2fc7c8.chunk.js",
-    "static/js/2.ab2fc7c8.chunk.js.map": "/biopset-landing-page/static/js/2.ab2fc7c8.chunk.js.map",
+    "static/js/2.6058d54b.chunk.js": "/biopset-landing-page/static/js/2.6058d54b.chunk.js",
+    "static/js/2.6058d54b.chunk.js.map": "/biopset-landing-page/static/js/2.6058d54b.chunk.js.map",
     "index.html": "/biopset-landing-page/index.html",
     "static/css/2.95429190.chunk.css.map": "/biopset-landing-page/static/css/2.95429190.chunk.css.map",
-    "static/css/main.3a53d2df.chunk.css.map": "/biopset-landing-page/static/css/main.3a53d2df.chunk.css.map",
-    "static/js/2.ab2fc7c8.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/2.ab2fc7c8.chunk.js.LICENSE.txt",
-    "static/js/main.206c9b3f.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/main.206c9b3f.chunk.js.LICENSE.txt",
+    "static/css/main.1621055b.chunk.css.map": "/biopset-landing-page/static/css/main.1621055b.chunk.css.map",
+    "static/js/2.6058d54b.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/2.6058d54b.chunk.js.LICENSE.txt",
+    "static/js/main.35723357.chunk.js.LICENSE.txt": "/biopset-landing-page/static/js/main.35723357.chunk.js.LICENSE.txt",
     "static/media/antoine-barres.jpg": "/biopset-landing-page/static/media/antoine-barres.bc3299c2.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/biopset-landing-page/static/media/ayo-ogunseinde-2.f4af8f2c.jpg",
     "static/media/biopset-dark-background-1920x1080px.jpg": "/biopset-landing-page/static/media/biopset-dark-background-1920x1080px.4e9d78cd.jpg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.c2fc7156.js",
     "static/css/2.95429190.chunk.css",
-    "static/js/2.ab2fc7c8.chunk.js",
-    "static/css/main.3a53d2df.chunk.css",
-    "static/js/main.206c9b3f.chunk.js"
+    "static/js/2.6058d54b.chunk.js",
+    "static/css/main.1621055b.chunk.css",
+    "static/js/main.35723357.chunk.js"
   ]
 }
