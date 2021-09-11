@@ -35,7 +35,7 @@ function Blog() {
     for( var i = 0; i < iframes.width; i++) {
         resizeIFrameToFitContent( iframes[i] );
     }  
-  })
+  });
 
   React.useEffect(() => {
     const scriptTag = document.createElement('script');
@@ -58,7 +58,7 @@ function Blog() {
           fields: ["description", "author", "claps", "publishAt"],
           ratio: "landscape"
         }
-    })
+    });
 
     return () => {
       window.MediumWidget.unmount();
