@@ -26,19 +26,6 @@ function Blog() {
   };
 
   React.useEffect(() => {
-    const iframes = document.querySelectorAll("iframe");
-    
-    function resizeIFrameToFitContent( iFrame ) {
-      iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-      iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-    }
-  
-    for( var i = 0; i < iframes.width; i++) {
-        resizeIFrameToFitContent( iframes[i] );
-    }  
-  });
-
-  React.useEffect(() => {
     const scriptTag = document.createElement('script');
     scriptTag.src = "https://medium-widget.pixelpoint.io/widget.js";
     scriptTag.addEventListener('load', () => setLoaded(true));
@@ -93,7 +80,7 @@ function Blog() {
                     }}
                   >
                     <i className="fa fa-rss" />
-                    <h6 className="info-title">Read Latest Updates</h6>
+                    <h6 className="info-title btn-warning">Read Latest Updates</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -137,11 +124,11 @@ function Blog() {
                 Take a look at this video if you are new to binary options and want to 
                 learn how BIOPset can be a benefit to you.
               </p>
-              <iframe width="100%" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="500px" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </TabPane>
             <TabPane tabId="3">
               <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
-              <iframe width="100%" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              <iframe width="100%" height="500px" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </TabPane>
           </TabContent>
         </Col>
