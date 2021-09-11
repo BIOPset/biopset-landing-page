@@ -111,7 +111,7 @@ function Founders() {
                 <CardBody>
                   <a href="#dereek69" onClick={(e) => e.preventDefault()}>
                     <div className="author">
-                      <CardTitle tag="h4">Sophie West</CardTitle>
+                      <CardTitle tag="h4">Zero</CardTitle>
                       <h6 className="card-category">Designer</h6>
                     </div>
                   </a>
