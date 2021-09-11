@@ -83,9 +83,11 @@ function Founders() {
                       <h6 className="card-category">Core Developer</h6>
                     </div>
                   </a>
+                </CardBody>
+                <CardFooter className="text-center">
                   <Button
                     href="#blog"
-                    className="btn-round mr-4"
+                    className="btn-just-icon ml-1"
                     color="danger"
                     onClick={toggleShalaquianaModal}
                   >
@@ -130,32 +132,27 @@ function Founders() {
                     <div className="modal-footer">
                       <div className="left-side">
                         <Button
-                          className="btn-link"
-                          color="default"
+                          className="btn-link btn-just-icon ml-1"
+                          color="danger"
                           type="button"
                           onClick={toggleShalaquianaModal}
                         >
-                          Close
+                          <i className="far fa-window-close" />
                         </Button>
                       </div>
                       <div className="divider" />
                       <div className="right-side">
-                        <Button className="btn-link" color="danger" type="button">
-                          More
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="primary"
+                          href="https://twitter.com/shalaquiana"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
                         </Button>
                       </div>
                     </div>
                   </Modal>
-                </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="https://twitter.com/shalaquiana"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-twitter" />
-                  </Button>
                 </CardFooter>
               </Card>
             </Col>
