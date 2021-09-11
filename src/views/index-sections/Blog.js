@@ -102,6 +102,7 @@ function Blog() {
             </TabPane>
             <TabPane tabId="3">
               <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
+              <iframe src="https://discord.com/widget?id=795000201742909450&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </TabPane>
           </TabContent>
         </Col>
