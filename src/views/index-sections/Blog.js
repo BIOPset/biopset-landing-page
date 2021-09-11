@@ -61,7 +61,15 @@ function Blog() {
       <Row>
         <Col className="ml-auto mr-auto" md="10">
           <div className="title">
-            <h3>Learn More</h3>
+            <h2>Learn More</h2>
+            <br />
+            <img src={brandIcon} width="10%" style={{padding: "10px 0"}} alt="brand icon" />
+            <p>
+              The binary options settlement protocol ("<span style={{color: '#D60000'}}>BIOPSET</span>") aims to be the most transparent programmatic 
+              clearinghouse for buying and selling binary options and esure all users ("<span style={{color: '#D60000'}}>settlers</span>") may leverage the 
+              protocol to earn fees for settling on-demand binary options offered by liquidity providers 
+              ("<span style={{color: '#D60000'}}>writers</span>") seeking to earn premiums from price speculators ("<span style={{color: '#D60000'}}>traders</span>"). 
+            </p>
           </div>
           <div className="nav-tabs-navigation">
             <div className="nav-tabs-wrapper">
