@@ -29,6 +29,12 @@ function Blog() {
 
   React.useEffect(() => {
     const iframes = document.querySelectorAll("iframe");
+    
+    function resizeIFrameToFitContent( iFrame ) {
+      iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+      iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+    }
+  
     for( var i = 0; i < iframes.height; i++) {
         resizeIFrameToFitContent( iframes[i] );
     }  
