@@ -79,8 +79,8 @@ function Blog() {
                       toggle("1");
                     }}
                   >
-                    <i className="fa fa-rss text-default" />
-                    <h6 className="info-title text-default">Read Latest Updates</h6>
+                    <i className="fa fa-rss" />
+                    <h6>Read Latest Updates</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -90,8 +90,8 @@ function Blog() {
                       toggle("2");
                     }}
                   >
-                    <i className="fa fa-play text-default" />
-                    <h6 className="info-title text-default">Watch Featured Video</h6>
+                    <i className="fa fa-play" />
+                    <h6>Watch Featured Video</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -101,8 +101,8 @@ function Blog() {
                       toggle("3");
                     }}
                   >
-                    <i className="fa fa-comments text-default" />
-                    <h6 className="info-title text-default">Join Our Community</h6>
+                    <i className="fa fa-comments" />
+                    <h6>Join Our Community</h6>
                   </NavLink>
                 </NavItem>
               </Nav>
