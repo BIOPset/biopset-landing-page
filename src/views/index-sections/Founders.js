@@ -112,22 +112,22 @@ function Founders() {
                       </h2>
                     </div>
                     <div className="modal-body ml-auto mr-auto" xs="10">
-                      <h6>
+                      <h5>
                         Shalaquiana is BIOPset’s primary developer. She developed the first versions of the protocol 
                         independently and now works collaboratively with the rest of the team and the broader community 
                         to refine the current version of the smart contracts and improve the web apps' UI/UX. 
-                      </h6>
-                      <h6>
+                      </h5>
+                      <h5>
                         She also enjoys developing marketing content. In particular, she finds creating memes and other 
                         light content a much-needed respite from leading development.
-                      </h6>
-                      <h6>
+                      </h5>
+                      <h5>
                         Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
                         decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
-                      </h6>
-                      <h6>
+                      </h5>
+                      <h5>
                         Shalaquiana credentials are on display in the protocol's codebase.
-                      </h6>
+                      </h5>
                     </div>
                     <div className="modal-footer">
                       <div className="left-side">
