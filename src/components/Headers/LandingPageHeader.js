@@ -23,7 +23,6 @@ import brandIcon from '../../assets/img/biop-brand-icon-128x128px.png';
 
 // react-scroll components
 import {
-  Link as ScrollToLink,
   animateScroll
 } from "react-scroll";
 
@@ -89,7 +88,6 @@ function LandingPageHeader() {
           </div>
         </Container>
       </div>
-      <ScrollToLink />
     </>
   );
 }
