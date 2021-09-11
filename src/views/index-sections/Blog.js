@@ -130,8 +130,8 @@ function Blog() {
             <TabPane tabId="3">
              <h6>Join Our Community</h6>
               <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
-              <iframe width="100%" height="500px" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
               <br />
+              <iframe width="100%" height="500px" src="https://discord.com/widget?id=795000201742909450&theme=dark" title="BIOPset Discord Widget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </TabPane>
           </TabContent>
         </Col>
