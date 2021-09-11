@@ -27,6 +27,12 @@ function Blog() {
     }
   };
 
+  React.useEffect(() => {
+    const iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.height; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }  
+  })
 
   React.useEffect(() => {
     const scriptTag = document.createElement('script');
