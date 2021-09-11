@@ -19,7 +19,7 @@ function Founders() {
 
   return (
     <div 
-      className="section text-center" 
+      className="section section-dark text-center" 
       style={{
         backgroundImage:
           "url(" + require("assets/img/biopset-dark-background-1920x1080px.jpg").default + ")",
