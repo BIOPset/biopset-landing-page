@@ -97,7 +97,7 @@ function Blog() {
                       color="default"
                       outline
                     >
-                      <i className="fa fa-newspaper" />
+                      <i className="fa fa-rss" />
                       <h6 className="info-title">Read Latest Updates</h6>
                     </Button>
                   </NavLink>
