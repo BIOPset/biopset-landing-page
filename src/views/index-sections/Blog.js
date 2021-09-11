@@ -92,14 +92,8 @@ function Blog() {
                       toggle("1");
                     }}
                   >
-                    <Button
-                      className="btn-round"
-                      color="default"
-                      outline
-                    >
-                      <i className="fa fa-rss" />
-                      <h6 className="info-title">Read Latest Updates</h6>
-                    </Button>
+                    <i className="fa fa-rss" />
+                    <h6 className="info-title">Read Latest Updates</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -109,6 +103,7 @@ function Blog() {
                       toggle("2");
                     }}
                   >
+                    <i className="fa fa-play" />
                     <h6 className="info-title">Watch Featured Video</h6>
                   </NavLink>
                 </NavItem>
@@ -119,6 +114,7 @@ function Blog() {
                       toggle("3");
                     }}
                   >
+                    <i className="fa fa-comments" />
                     <h6 className="info-title">Join Our Community</h6>
                   </NavLink>
                 </NavItem>
