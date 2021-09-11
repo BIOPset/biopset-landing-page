@@ -3,6 +3,7 @@ import React from "react";
 
 // reactstrap components
 import {
+  Modal,
   Button,
   Card,
   CardBody,
@@ -16,6 +17,10 @@ import {
 // core components
 
 function Founders() {
+  const [shalaquianaModal, setShalaquianaModal] = React.useState(false);
+  const toggleShalaquianaModal = () => {
+    setShalaquianaModal(!videoModal);
+  };
 
   return (
     <div 
