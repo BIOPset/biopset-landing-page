@@ -13,9 +13,6 @@ import {
   Col,
 } from "reactstrap";
 
-// brand icon
-import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
-
 // core components
 
 function Blog() {
