@@ -35,8 +35,6 @@ import { Button, Container } from "reactstrap";
 function LandingPageHeader() {
   let pageHeader = React.createRef();
 
-  React.useEffect( () => animateScroll.scrollToBottom() );
-
   React.useEffect(() => {
     if (window.innerWidth < 991) {
       const updateScroll = () => {
@@ -83,7 +81,7 @@ function LandingPageHeader() {
               href="#main"
               className="btn-round mr-4"
               color="primary"
-              onClick={(e) => e.preventDefault()}
+              onClick={() => animateScroll.scrollToBottom()}
             >
               <i className="fa fa-info" />
               Why BIOPSET?

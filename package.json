@@ -48,7 +48,7 @@
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8"
   },
-  "description": "Paper Kit React is a free Bootstrap 4, React, React Hooks and Reactstrap UI Kit with pale colors, beautiful typography and thoughtful drawings. We've created it having paper and drawings in mind.",
+  "description": "BIOPset Landing Page.",
   "main": "src/assets/scss/paper-kit.scss",
   "repository": {
     "type": "git",
@@ -70,12 +70,10 @@
     "template",
     "theme",
     "react-template",
-    "react-theme"
+    "react-theme",
+    "react-scroll"
   ],
-  "author": "Creative Tim",
+  "author": "Useful Coin built on work by Creative Tim",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/paper-kit-react/issues"
-  },
   "homepage": "https://usefulcoin.github.io/biopset-landing-page/"
 }
