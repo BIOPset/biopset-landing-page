@@ -2,7 +2,6 @@
 import React from "react";
 
 // reactstrap components
-// reactstrap components
 import {
   NavItem,
   NavLink,
@@ -13,6 +12,9 @@ import {
   Row,
   Col,
 } from "reactstrap";
+
+// brand icon
+import brandIcon from '../../assets/img/biop-white-icon-128x128px.png';
 
 // core components
 
