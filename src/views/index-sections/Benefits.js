@@ -4,6 +4,11 @@ import React from "react";
 // reactstrap components
 import { Col, Row, Button, Container } from "reactstrap";
 
+// react-scroll components
+import {
+  Link as ScrollToLink
+} from "react-scroll";
+
 // core components
 
 function Benefits() {
