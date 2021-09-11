@@ -42,7 +42,7 @@ function Blog() {
         params: {
           resource: "https://medium.com/biopset",
           postsPerLine: 1,
-          limit: 2,
+          limit: 1,
           picture: "big",
           fields: ["description", "author", "claps", "publishAt"],
           ratio: "landscape"
@@ -59,7 +59,7 @@ function Blog() {
     <div className="section text-center">
     <Container>
       <Row>
-        <Col md="6">
+        <Col className="ml-auto mr-auto" md="10">
           <div className="title">
             <h3>Learn More</h3>
           </div>
