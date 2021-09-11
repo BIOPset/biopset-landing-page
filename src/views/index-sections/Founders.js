@@ -22,6 +22,21 @@ function Founders() {
     setShalaquianaModal(!shalaquianaModal);
   };
 
+  const [zeroModal, setZeroModal] = React.useState(false);
+  const toggleZeroModal = () => {
+    setZeroModal(!zeroModal);
+  };
+
+  const [dereek69Modal, setDereek69Modal] = React.useState(false);
+  const toggleDereek69Modal = () => {
+    setDereek69Modal(!dereek69Modal);
+  };
+
+  const [munairModal, setMunairModal] = React.useState(false);
+  const toggleMunairModal = () => {
+    setMunairModal(!munairModal);
+  };
+
   return (
     <div 
       className="section section-dark text-center" 
@@ -171,28 +186,85 @@ function Founders() {
                   </a>
                 </div>
                 <CardBody>
-                  <a href="#dereek69" onClick={(e) => e.preventDefault()}>
+                  <a href="#zero" onClick={(e) => e.preventDefault()}>
                     <div className="author">
                       <CardTitle tag="h4">Zero</CardTitle>
                       <h6 className="card-category">Graphic Designer</h6>
                     </div>
                   </a>
-                  <p className="card-description text-center">
-                    A group becomes a team when each member is sure enough of
-                    himself and his contribution to praise the skill of the
-                    others. No one can whistle a symphony. It takes an
-                    orchestra to play it.
-                  </p>
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="https://twitter.com/zero"
-                    onClick={(e) => e.preventDefault()}
+                    href="#blog"
+                    className="btn-just-icon ml-1"
+                    color="danger"
+                    onClick={toggleZeroModal}
                   >
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-info" />
                   </Button>
+                  {/* Zero Modal */}
+                  <Modal isOpen={zeroModal} toggle={toggleZeroModal}>
+                    <div className="modal-header">
+                      <button
+                        aria-label="Close"
+                        className="close"
+                        type="button"
+                        onClick={toggleZeroModal}
+                      >
+                        <span aria-hidden={true}>×</span>
+                      </button>
+                      <h2
+                        className="modal-title text-center"
+                        id="zeroModalLabel"
+                      >
+                        Zero
+                      </h2>
+                    </div>
+                    <div className="modal-body ml-auto mr-auto" xs="10">
+                      <h6 className="description">
+                        Zero is BIOPSET's graphic designer. He pours his passion and dedication into the protocol's public 
+                        face and is responsible for its brand identity. His work influences every aspect of the Settlement 
+                        DAO that leaves a visual impression on the heart. In particular, Zero created the logo and designed 
+                        the website. 
+                      </h6>
+                      <h6 className="description">
+                        Zero possesses 5 year's experience as a freelancer. This experience includes numerous projects that 
+                        greatly expanded his knowledge of various creative techniques.
+                      </h6>
+                      <h6 className="description">
+                        Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
+                        decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
+                      </h6>
+                      <h6 className="description">
+                        Zero graduated from an art school in Milan and counts his desire to learn new things as his greatest asset.
+                      </h6>
+                    </div>
+                    <div className="modal-footer">
+                      <div className="left-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="danger"
+                          type="button"
+                          onClick={toggleZeroModal}
+                        >
+                          <i className="fa fa-window-close" />
+                          Close
+                        </Button>
+                      </div>
+                      <div className="divider" />
+                      <div className="right-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="primary"
+                          href="https://twitter.com/zero"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                          Follow
+                        </Button>
+                      </div>
+                    </div>
+                  </Modal>
                 </CardFooter>
               </Card>
             </Col>
@@ -216,22 +288,77 @@ function Founders() {
                       <h6 className="card-category">Token Economist</h6>
                     </div>
                   </a>
-                  <p className="card-description text-center">
-                    The strength of the team is each individual member. The
-                    strength of each member is the team. If you can laugh
-                    together, you can work together, silence isn’t golden,
-                    it’s deadly.
-                  </p>
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="https://twitter.com/Dereek70"
-                    onClick={(e) => e.preventDefault()}
+                    href="#blog"
+                    className="btn-just-icon ml-1"
+                    color="danger"
+                    onClick={toggleDereek69Modal}
                   >
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-info" />
                   </Button>
+                  {/* Dereek69 Modal */}
+                  <Modal isOpen={dereek69Modal} toggle={toggleDereek69Modal}>
+                    <div className="modal-header">
+                      <button
+                        aria-label="Close"
+                        className="close"
+                        type="button"
+                        onClick={toggleDereek69Modal}
+                      >
+                        <span aria-hidden={true}>×</span>
+                      </button>
+                      <h2
+                        className="modal-title text-center"
+                        id="zeroModalLabel"
+                      >
+                        Zero
+                      </h2>
+                    </div>
+                    <div className="modal-body ml-auto mr-auto" xs="10">
+                      <h6 className="description">
+                        Dereek designed and developed BIOP's token distribution/economics. 
+                      </h6>
+                      <h6 className="description">
+                        He has 4 years of experience as an independent protocol researcher and private investor. After discovering 
+                        Bitcoin in 2014, he went on to develop proprietary mining research tools that find and analyze on-chain data in 2018.
+                      </h6>
+                      <h6 className="description">
+                        Dereek became a market maker and algorithmic trader in 2019 before transitioning into decentralized finance 
+                        in early 2020. He'd been searching for a project that would make use of his experience and various talents 
+                        and found that fit bootstrapping the Settlement DAO.
+                      </h6>
+                      <h6 className="description">
+                        Dereek attended the School of Industrial and Information Engineering at Politecnico di Milano.
+                      </h6>
+                    </div>
+                    <div className="modal-footer">
+                      <div className="left-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="danger"
+                          type="button"
+                          onClick={toggleDereek69Modal}
+                        >
+                          <i className="fa fa-window-close" />
+                          Close
+                        </Button>
+                      </div>
+                      <div className="divider" />
+                      <div className="right-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="primary"
+                          href="https://twitter.com/dereek70"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                          Follow
+                        </Button>
+                      </div>
+                    </div>
+                  </Modal>
                 </CardFooter>
               </Card>
             </Col>
@@ -255,22 +382,75 @@ function Founders() {
                       <h6 className="card-category">Marketing Manager</h6>
                     </div>
                   </a>
-                  <p className="card-description text-center">
-                    The strength of the team is each individual member. The
-                    strength of each member is the team. If you can laugh
-                    together, you can work together, silence isn’t golden,
-                    it’s deadly.
-                  </p>
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="https://twitter.com/munair"
-                    onClick={(e) => e.preventDefault()}
+                    href="#blog"
+                    className="btn-just-icon ml-1"
+                    color="danger"
+                    onClick={toggleMunairModal}
                   >
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-info" />
                   </Button>
+                  {/* Munair Modal */}
+                  <Modal isOpen={munairModal} toggle={toggleMunairModal}>
+                    <div className="modal-header">
+                      <button
+                        aria-label="Close"
+                        className="close"
+                        type="button"
+                        onClick={toggleMunairModal}
+                      >
+                        <span aria-hidden={true}>×</span>
+                      </button>
+                      <h2
+                        className="modal-title text-center"
+                        id="zeroModalLabel"
+                      >
+                        Zero
+                      </h2>
+                    </div>
+                    <div className="modal-body ml-auto mr-auto" xs="10">
+                      <h6 className="description">
+                        Munair exerts a strong influence on marketing strategy. He is most active in community building on 
+                        Discord and an occasional contributor to the protocol's codebase. In particular, he enjoys sharing 
+                        the benefits of the protocol with the wider community via Medium. 
+                      </h6>
+                      <h6 className="description">
+                        Before joining the Settlement DAO and its binary options settlement protocol, Munair was the chief 
+                        marketing officer of IoTrust (makers of the D'CENT Biometric Hardware Wallet) and led strategy and 
+                        business development for numerous other cryptocurrency projects based in South Korea. 
+                      </h6>
+                      <h6 className="description">
+                        Munair has an MBA in Marketing from the Wharton School at the University of Pennsylvania.
+                      </h6>
+                    </div>
+                    <div className="modal-footer">
+                      <div className="left-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="danger"
+                          type="button"
+                          onClick={toggleMunairModal}
+                        >
+                          <i className="fa fa-window-close" />
+                          Close
+                        </Button>
+                      </div>
+                      <div className="divider" />
+                      <div className="right-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="primary"
+                          href="https://twitter.com/munair"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                          Follow
+                        </Button>
+                      </div>
+                    </div>
+                  </Modal>
                 </CardFooter>
               </Card>
             </Col>
