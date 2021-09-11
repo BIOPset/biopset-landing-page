@@ -16,8 +16,9 @@ import {
 // core components
 
 function SocialMedia() {
-  const [loaded, setLoaded] = React.useState(false);
+  const [loadedMedium, setLoadedMedium] = React.useState(false);
   const [activeTab, setActiveTab] = React.useState("1");
+
   const toggle = (tab) => {
     if (activeTab !== tab) {
       setActiveTab(tab);
@@ -25,14 +26,14 @@ function SocialMedia() {
   };
 
   React.useEffect(() => {
-    const scriptTag = document.createElement('script');
-    scriptTag.src = "https://medium-widget.pixelpoint.io/widget.js";
-    scriptTag.addEventListener('load', () => setLoaded(true));
-    document.body.appendChild(scriptTag);
+    const mediumScriptTag = document.createElement('script');
+    mediumScriptTag.src = "https://medium-widget.pixelpoint.io/widget.js";
+    mediumScriptTag.addEventListener('load', () => setLoadedMedium(true));
+    document.body.appendChild(mediumScriptTag);
   }, []);
 
   React.useEffect(() => {
-    if (!loaded) return;
+    if (!loadedMedium) return;
     // the <script src="https://medium-widget.pixelpoint.io/widget.js"></script> should be loaded.
 
     window.MediumWidget.Init({
@@ -51,7 +52,7 @@ function SocialMedia() {
       window.MediumWidget.unmount();
     };
   
-  }, [loaded])
+  }, [loadedMedium])
 
   return (
     <div className="section text-center">
@@ -149,7 +150,7 @@ function SocialMedia() {
                 for Medium or Discord.
               </p>
               <br />
-              <a class="twitter-timeline" data-height="500" href="https://twitter.com/BIOPset?ref_src=twsrc%5Etfw">Tweets by BIOPset</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/OlCeLqmNLI">https://t.co/OlCeLqmNLI</a></p>&mdash; BIOPSET (@BIOPset) <a href="https://twitter.com/BIOPset/status/1411178436060712962?ref_src=twsrc%5Etfw">July 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </TabPane>
           </TabContent>
         </Col>
