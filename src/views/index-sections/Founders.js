@@ -68,7 +68,7 @@ function Founders() {
                 <div className="card-avatar">
                   <a href="#shalaquiana" onClick={(e) => e.preventDefault()}>
                     <img
-                      alt="shalaquiana profile image"
+                      alt="shalaquiana"
                       src={
                         require("assets/img/faces/shalaquiana-profile-image.jpg")
                           .default
@@ -163,7 +163,7 @@ function Founders() {
                 <div className="card-avatar">
                   <a href="#zero" onClick={(e) => e.preventDefault()}>
                     <img
-                      alt="zero profile image"
+                      alt="zero"
                       src={
                         require("assets/img/faces/zero-profile-image.jpg").default
                       }
@@ -201,7 +201,7 @@ function Founders() {
                 <div className="card-avatar">
                   <a href="#dereek69" onClick={(e) => e.preventDefault()}>
                     <img
-                      alt="dereek69 profile image"
+                      alt="dereek69"
                       src={
                         require("assets/img/faces/dereek69-profile-image.jpg")
                           .default
@@ -240,7 +240,7 @@ function Founders() {
                 <div className="card-avatar">
                   <a href="#munair" onClick={(e) => e.preventDefault()}>
                     <img
-                      alt="munair profile image"
+                      alt="munair"
                       src={
                         require("assets/img/faces/munair-profile-image.jpg")
                           .default
