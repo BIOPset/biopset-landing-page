@@ -10,6 +10,7 @@ function Benefits() {
 
   return (
     <div className="section section-gold text-center">
+      <ScrollToLink to="landingPageEnd" smooth={true} offset={500} duration={1000} delay={500}/>
       <Container>
         <Row>
           <Col md="3">
