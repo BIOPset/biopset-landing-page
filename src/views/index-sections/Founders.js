@@ -19,7 +19,7 @@ import {
 function Founders() {
   const [shalaquianaModal, setShalaquianaModal] = React.useState(false);
   const toggleShalaquianaModal = () => {
-    setShalaquianaModal(!videoModal);
+    setShalaquianaModal(!shalaquianaModal);
   };
 
   return (
