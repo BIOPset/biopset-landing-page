@@ -42,8 +42,68 @@ function Blog() {
     <div className="section text-center">
     <Container>
       <Row>
-        <Col className="ml-auto mr-auto" xs="10">
-          <div id="medium-widget" />
+        <Col md="6">
+          <div className="title">
+            <h3>Learn More</h3>
+          </div>
+          <div className="nav-tabs-navigation">
+            <div className="nav-tabs-wrapper">
+              <Nav id="tabs" role="tablist" tabs>
+                <NavItem>
+                  <NavLink
+                    className={activeTab === "1" ? "active" : ""}
+                    onClick={() => {
+                      toggle("1");
+                    }}
+                  >
+                    Read Latest Updates
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    className={activeTab === "2" ? "active" : ""}
+                    onClick={() => {
+                      toggle("2");
+                    }}
+                  >
+                    Watch Featured Video
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    className={activeTab === "3" ? "active" : ""}
+                    onClick={() => {
+                      toggle("3");
+                    }}
+                  >
+                    Join Our Community
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </div>
+          </div>
+          <TabContent activeTab={activeTab} className="text-center">
+            <TabPane tabId="1">
+              <p>
+                Keep up-to-date with everything that is happening at BIOPset via our Medium Blog. 
+                All official news is posted here.
+              </p>
+              <p>
+                Here is the latest news:
+              </p>
+              <div id="medium-widget" />
+            </TabPane>
+            <TabPane tabId="2">
+              <p>
+                Take a look at this video if you are new to binary options and want to 
+                learn how BIOPset can be a benefit to you.
+              </p>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </TabPane>
+            <TabPane tabId="3">
+              <p>The beating heart of BIOPset is our community. Please join us in Discord.</p>
+            </TabPane>
+          </TabContent>
         </Col>
       </Row>
     </Container>
