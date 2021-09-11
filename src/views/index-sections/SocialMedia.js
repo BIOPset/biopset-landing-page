@@ -149,7 +149,7 @@ function SocialMedia() {
                 for Medium or Discord.
               </p>
               <br />
-              <a href="https://twitter.com/intent/tweet?screen_name=biopset&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @biopset</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-height="500" href="https://twitter.com/BIOPset?ref_src=twsrc%5Etfw">Tweets by BIOPset</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </TabPane>
           </TabContent>
         </Col>
