@@ -21,6 +21,12 @@ import React from "react";
 // brand icon
 import brandIcon from '../../assets/img/biop-brand-icon-128x128px.png';
 
+// react-scroll components
+import {
+  Link as ScrollToLink,
+  animateScroll
+} from "react-scroll";
+
 // reactstrap components
 import { Button, Container } from "reactstrap";
 
@@ -28,6 +34,8 @@ import { Button, Container } from "reactstrap";
 
 function LandingPageHeader() {
   let pageHeader = React.createRef();
+
+  React.useEffect( () => animateScroll.scrollToBottom() );
 
   React.useEffect(() => {
     if (window.innerWidth < 991) {
@@ -83,6 +91,7 @@ function LandingPageHeader() {
           </div>
         </Container>
       </div>
+      <ScrollToLink />
     </>
   );
 }
