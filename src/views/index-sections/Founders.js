@@ -138,6 +138,7 @@ function Founders() {
                           onClick={toggleShalaquianaModal}
                         >
                           <i className="fa fa-window-close" />
+                          Close
                         </Button>
                       </div>
                       <div className="divider" />
@@ -149,6 +150,7 @@ function Founders() {
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
+                          Follow
                         </Button>
                       </div>
                     </div>
