@@ -313,7 +313,7 @@ function Founders() {
                         className="modal-title text-center"
                         id="zeroModalLabel"
                       >
-                        Zero
+                        Dereek69
                       </h2>
                     </div>
                     <div className="modal-body ml-auto mr-auto" xs="10">
@@ -407,7 +407,7 @@ function Founders() {
                         className="modal-title text-center"
                         id="zeroModalLabel"
                       >
-                        Zero
+                        Munair
                       </h2>
                     </div>
                     <div className="modal-body ml-auto mr-auto" xs="10">
