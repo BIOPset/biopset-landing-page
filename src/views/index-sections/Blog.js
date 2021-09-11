@@ -65,7 +65,6 @@ function Blog() {
           <div className="title">
             <h2>Learn More</h2>
             <br />
-            <img src={brandIcon} width="10%" style={{padding: "10px 0"}} alt="brand icon" />
             <p>
               The binary options settlement protocol ("<span style={{color: '#D60000'}}>BIOPSET</span>") aims to be the most transparent programmatic 
               clearinghouse for buying and selling binary options and esure all users ("<span style={{color: '#D60000'}}>settlers</span>") may leverage the 
@@ -83,7 +82,7 @@ function Blog() {
                       toggle("1");
                     }}
                   >
-                    Read Latest Updates
+                    <h6 className="info-title">Read Latest Updates</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -93,7 +92,7 @@ function Blog() {
                       toggle("2");
                     }}
                   >
-                    Watch Featured Video
+                    <h6 className="info-title">Watch Featured Video</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -103,7 +102,7 @@ function Blog() {
                       toggle("3");
                     }}
                   >
-                    Join Our Community
+                    <h6 className="info-title">Join Our Community</h6>
                   </NavLink>
                 </NavItem>
               </Nav>
