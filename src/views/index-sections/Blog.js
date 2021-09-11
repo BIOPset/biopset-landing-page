@@ -2,12 +2,29 @@
 import React from "react";
 
 // reactstrap components
-import { Col, Row, Container } from "reactstrap";
+// reactstrap components
+import {
+  NavItem,
+  NavLink,
+  Nav,
+  TabContent,
+  TabPane,
+  Container,
+  Row,
+  Col,
+} from "reactstrap";
 
 // core components
 
 function Blog() {
   const [loaded, setLoaded] = React.useState(false);
+  const [activeTab, setActiveTab] = React.useState("1");
+  const toggle = (tab) => {
+    if (activeTab !== tab) {
+      setActiveTab(tab);
+    }
+  };
+
 
   React.useEffect(() => {
     const scriptTag = document.createElement('script');
