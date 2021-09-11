@@ -65,7 +65,7 @@ function Founders() {
           <Row>
             <Col md="3">
               <Card className="card-profile card-plain">
-                <div className="card-avatar border-danger">
+                <div className="card-avatar border-white">
                   <a href="#shalaquiana" onClick={(e) => e.preventDefault()}>
                     <img
                       alt="shalaquiana"
@@ -160,7 +160,7 @@ function Founders() {
             </Col>
             <Col md="3">
               <Card className="card-profile card-plain">
-                <div className="card-avatar border-danger">
+                <div className="card-avatar border-white">
                   <a href="#zero" onClick={(e) => e.preventDefault()}>
                     <img
                       alt="zero"
@@ -198,7 +198,7 @@ function Founders() {
             </Col>
             <Col md="3">
               <Card className="card-profile card-plain">
-                <div className="card-avatar border-danger">
+                <div className="card-avatar border-white">
                   <a href="#dereek69" onClick={(e) => e.preventDefault()}>
                     <img
                       alt="dereek69"
@@ -237,7 +237,7 @@ function Founders() {
             </Col>
             <Col md="3">
               <Card className="card-profile card-plain">
-                <div className="card-avatar border-danger">
+                <div className="card-avatar border-white">
                   <a href="#munair" onClick={(e) => e.preventDefault()}>
                     <img
                       alt="munair"
