@@ -93,7 +93,7 @@ function Blog() {
                     }}
                   >
                     <Button
-                      className="btn-round mr-4"
+                      className="btn-round"
                       color="default"
                       outline
                     >
