@@ -57,10 +57,10 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <img src={brandIcon} width="75px" height="75px" alt="white icon" />
+            <img src={brandIcon} width="75px" height="75px" alt="brand icon" />
             <h2>binary options <br /> settlement protocol</h2>
             <br />
-            <h6 style={{textTransform: "uppercase"}}>on-demand<br /> peer-to-pool<br /> binary options trading</h6>
+            <h6 className="info-title">on-demand<br /> peer-to-pool<br /> binary options trading</h6>
             <br />
             <Button
               className="btn-round mr-4"
