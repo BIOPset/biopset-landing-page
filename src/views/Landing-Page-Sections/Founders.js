@@ -37,6 +37,11 @@ function Founders() {
     setMunairModal(!munairModal);
   };
 
+  const [uchennaModal, setUchennaModal] = React.useState(false);
+  const toggleUchennaModal = () => {
+    setUchennaModal(!uchennaModal);
+  };
+
   return (
     <div 
       className="section section-dark text-center" 
@@ -78,7 +83,7 @@ function Founders() {
             </Col>
           </Row>
           <Row>
-            <Col md="3">
+            <Col md="6">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
                   <a href="#shalaquiana" onClick={(e) => e.preventDefault()}>
@@ -173,7 +178,7 @@ function Founders() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3">
+            <Col md="6">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
                   <a href="#zero" onClick={(e) => e.preventDefault()}>
@@ -268,7 +273,9 @@ function Founders() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3">
+          </Row>
+          <Row>
+            <Col md="4">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
                   <a href="#dereek69" onClick={(e) => e.preventDefault()}>
@@ -362,7 +369,7 @@ function Founders() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
                   <a href="#munair" onClick={(e) => e.preventDefault()}>
@@ -443,6 +450,99 @@ function Founders() {
                           className="btn-link btn-just-icon ml-1"
                           color="primary"
                           href="https://twitter.com/munair"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                          Follow
+                        </Button>
+                      </div>
+                    </div>
+                  </Modal>
+                </CardFooter>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-profile card-plain">
+                <div className="card-avatar border-white">
+                  <a href="#uchenna" onClick={(e) => e.preventDefault()}>
+                    <img
+                      alt="uchenna"
+                      src={
+                        require("assets/img/faces/uchenna-profile-image.jpg")
+                          .default
+                      }
+                    />
+                  </a>
+                </div>
+                <CardBody>
+                  <a href="#uchenna" onClick={(e) => e.preventDefault()}>
+                    <div className="author">
+                      <CardTitle tag="h4">Uchenna</CardTitle>
+                      <h6 className="card-category">Marketing Manager</h6>
+                    </div>
+                  </a>
+                </CardBody>
+                <CardFooter className="text-center">
+                  <Button
+                    href="#blog"
+                    className="btn-just-icon ml-1"
+                    color="danger"
+                    onClick={toggleUchennaModal}
+                  >
+                    <i className="fa fa-info" />
+                  </Button>
+                  {/* Uchenna Modal */}
+                  <Modal isOpen={uchennaModal} toggle={toggleUchennaModal}>
+                    <div className="modal-header">
+                      <button
+                        aria-label="Close"
+                        className="close"
+                        type="button"
+                        onClick={toggleUchennaModal}
+                      >
+                        <span aria-hidden={true}>×</span>
+                      </button>
+                      <h2
+                        className="modal-title text-center"
+                        id="zeroModalLabel"
+                      >
+                        Uchenna
+                      </h2>
+                    </div>
+                    <div className="modal-body ml-auto mr-auto" xs="10">
+                      <h6 className="description">
+                        Uchenna is the lord of testing and managing the protocol's repository. He has over twelve year's 
+                        software development experience and has contributed to several open-source technologies. In particular, 
+                        his contributions to BitTorrent make him an indispensable part of a team now obsessed with code quality 
+                        and security.
+                      </h6>
+                      <h6 className="description">
+                        Outside of cryptocurrency-related collaborations and contributions to open-source projects like Apache 
+                        Spark, Uchenna has contributed to exciting technological advances in the areas of distributed technologies 
+                        and large-scale systems for several fortune 500 companies in Silicon Valley.
+                      </h6>
+                      <h6 className="description">
+                        Uchenna holds a graduate degree in computer engineering from Virginia Tech.
+                      </h6>
+                    </div>
+                    <div className="modal-footer">
+                      <div className="left-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="danger"
+                          type="button"
+                          onClick={toggleUchennaModal}
+                        >
+                          <i className="fa fa-window-close" />
+                          Close
+                        </Button>
+                      </div>
+                      <div className="divider" />
+                      <div className="right-side">
+                        <Button
+                          className="btn-link btn-just-icon ml-1"
+                          color="primary"
+                          href="https://twitter.com/calikev85"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
