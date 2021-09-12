@@ -87,7 +87,7 @@ function Benefits() {
         </Row>
         <Row>
           <Col className="mr-auto ml-auto" md="6">
-            * transaction [gas] fees not taken into consideration.
+            <h6 className="description" style={{fontFamily: "octarine-bold", textTransform: "lowercase"}}>* transaction [gas] fees not taken into consideration.</h6>
           </Col>
         </Row>
       </Container>
