@@ -464,7 +464,7 @@ function Founders() {
             <Col md="4">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
-                  <a href="#uchenna" onConClick={toggleUchennaModal}>
+                  <a href="#uchenna" onClick={toggleUchennaModal}>
                     <img
                       alt="uchenna"
                       src={
@@ -478,7 +478,7 @@ function Founders() {
                   <a href="#uchenna" onClick={toggleUchennaModal}>
                     <div className="author">
                       <CardTitle tag="h4">Uchenna</CardTitle>
-                      <h6 className="card-category">Marketing Manager</h6>
+                      <h6 className="card-category">Engineering Manager</h6>
                     </div>
                   </a>
                 </CardBody>
