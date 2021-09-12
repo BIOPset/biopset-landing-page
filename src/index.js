@@ -11,4 +11,8 @@ import Index from "views/Index.js";
 
 // others
 
-ReactDOM.render( <Index />, document.getElementById('root') );
+const App = () => {
+  return ( <Index /> );
+}
+
+ReactDOM.render( <App />, document.getElementById('root') );
