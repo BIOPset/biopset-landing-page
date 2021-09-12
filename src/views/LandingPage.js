@@ -6,10 +6,10 @@ import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import LandingPageFooter from "components/Footers/LandingPageFooter.js";
 
 // index sections
-import Benefits from "views/Landing-Page-Sections/Benefits.js";
-import SocialMedia from "views/Landing-Page-Sections/SocialMedia.js";
-import Founders from "views/Landing-Page-Sections/Founders";
-import Notification from "views/Landing-Page-Sections/Notification.js";
+import Benefits from "views/landing-page-sections/Benefits.js";
+import SocialMedia from "views/landing-page-sections/SocialMedia.js";
+import Founders from "views/landing-page-sections/Founders";
+import Notification from "views/landing-page-sections/Notification.js";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
