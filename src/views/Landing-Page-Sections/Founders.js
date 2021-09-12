@@ -188,79 +188,69 @@ function Founders() {
                     </div>
                   </a>
                 </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    href="#blog"
-                    className="btn-just-icon ml-1"
-                    color="danger"
-                    onClick={toggleZeroModal}
-                  >
-                    <i className="fa fa-info" />
-                  </Button>
-                  {/* Zero Modal */}
-                  <Modal isOpen={zeroModal} toggle={toggleZeroModal}>
-                    <div className="modal-header">
-                      <button
-                        aria-label="Close"
-                        className="close"
+                {/* Zero Modal */}
+                <Modal isOpen={zeroModal} toggle={toggleZeroModal}>
+                  <div className="modal-header">
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      type="button"
+                      onClick={toggleZeroModal}
+                    >
+                      <span aria-hidden={true}>×</span>
+                    </button>
+                    <h2
+                      className="modal-title text-center"
+                      id="zeroModalLabel"
+                    >
+                      Zero
+                    </h2>
+                  </div>
+                  <div className="modal-body ml-auto mr-auto" xs="10">
+                    <h6 className="description">
+                      Zero is BIOPSET's graphic designer. He pours his passion and dedication into the protocol's public 
+                      face and is responsible for its brand identity. His work influences every aspect of the Settlement 
+                      DAO that leaves a visual impression on the heart. In particular, Zero created the logo and designed 
+                      the website. 
+                    </h6>
+                    <h6 className="description">
+                      Zero possesses 5 year's experience as a freelancer. This experience includes numerous projects that 
+                      greatly expanded his knowledge of various creative techniques.
+                    </h6>
+                    <h6 className="description">
+                      Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
+                      decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
+                    </h6>
+                    <h6 className="description">
+                      Zero graduated from an art school in Milan and counts his desire to learn new things as his greatest asset.
+                    </h6>
+                  </div>
+                  <div className="modal-footer">
+                    <div className="left-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="danger"
                         type="button"
                         onClick={toggleZeroModal}
                       >
-                        <span aria-hidden={true}>×</span>
-                      </button>
-                      <h2
-                        className="modal-title text-center"
-                        id="zeroModalLabel"
+                        <i className="fa fa-window-close" />
+                        Close
+                      </Button>
+                    </div>
+                    <div className="divider" />
+                    <div className="right-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="primary"
+                        href="https://twitter.com/zero"
+                        onClick={(e) => e.preventDefault()}
                       >
-                        Zero
-                      </h2>
+                        <i className="fa fa-twitter" />
+                        Follow
+                      </Button>
                     </div>
-                    <div className="modal-body ml-auto mr-auto" xs="10">
-                      <h6 className="description">
-                        Zero is BIOPSET's graphic designer. He pours his passion and dedication into the protocol's public 
-                        face and is responsible for its brand identity. His work influences every aspect of the Settlement 
-                        DAO that leaves a visual impression on the heart. In particular, Zero created the logo and designed 
-                        the website. 
-                      </h6>
-                      <h6 className="description">
-                        Zero possesses 5 year's experience as a freelancer. This experience includes numerous projects that 
-                        greatly expanded his knowledge of various creative techniques.
-                      </h6>
-                      <h6 className="description">
-                        Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
-                        decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
-                      </h6>
-                      <h6 className="description">
-                        Zero graduated from an art school in Milan and counts his desire to learn new things as his greatest asset.
-                      </h6>
-                    </div>
-                    <div className="modal-footer">
-                      <div className="left-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="danger"
-                          type="button"
-                          onClick={toggleZeroModal}
-                        >
-                          <i className="fa fa-window-close" />
-                          Close
-                        </Button>
-                      </div>
-                      <div className="divider" />
-                      <div className="right-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="primary"
-                          href="https://twitter.com/zero"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                          Follow
-                        </Button>
-                      </div>
-                    </div>
-                  </Modal>
-                </CardFooter>
+                  </div>
+                </Modal>
               </Card>
             </Col>
           </Row>
@@ -286,77 +276,67 @@ function Founders() {
                     </div>
                   </a>
                 </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    href="#blog"
-                    className="btn-just-icon ml-1"
-                    color="danger"
-                    onClick={toggleDereek69Modal}
-                  >
-                    <i className="fa fa-info" />
-                  </Button>
-                  {/* Dereek69 Modal */}
-                  <Modal isOpen={dereek69Modal} toggle={toggleDereek69Modal}>
-                    <div className="modal-header">
-                      <button
-                        aria-label="Close"
-                        className="close"
+                {/* Dereek69 Modal */}
+                <Modal isOpen={dereek69Modal} toggle={toggleDereek69Modal}>
+                  <div className="modal-header">
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      type="button"
+                      onClick={toggleDereek69Modal}
+                    >
+                      <span aria-hidden={true}>×</span>
+                    </button>
+                    <h2
+                      className="modal-title text-center"
+                      id="zeroModalLabel"
+                    >
+                      Dereek69
+                    </h2>
+                  </div>
+                  <div className="modal-body ml-auto mr-auto" xs="10">
+                    <h6 className="description">
+                      Dereek designed and developed BIOP's token distribution/economics. 
+                    </h6>
+                    <h6 className="description">
+                      He has 4 years of experience as an independent protocol researcher and private investor. After discovering 
+                      Bitcoin in 2014, he went on to develop proprietary mining research tools that find and analyze on-chain data in 2018.
+                    </h6>
+                    <h6 className="description">
+                      Dereek became a market maker and algorithmic trader in 2019 before transitioning into decentralized finance 
+                      in early 2020. He'd been searching for a project that would make use of his experience and various talents 
+                      and found that fit bootstrapping the Settlement DAO.
+                    </h6>
+                    <h6 className="description">
+                      Dereek attended the School of Industrial and Information Engineering at Politecnico di Milano.
+                    </h6>
+                  </div>
+                  <div className="modal-footer">
+                    <div className="left-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="danger"
                         type="button"
                         onClick={toggleDereek69Modal}
                       >
-                        <span aria-hidden={true}>×</span>
-                      </button>
-                      <h2
-                        className="modal-title text-center"
-                        id="zeroModalLabel"
+                        <i className="fa fa-window-close" />
+                        Close
+                      </Button>
+                    </div>
+                    <div className="divider" />
+                    <div className="right-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="primary"
+                        href="https://twitter.com/dereek70"
+                        onClick={(e) => e.preventDefault()}
                       >
-                        Dereek69
-                      </h2>
+                        <i className="fa fa-twitter" />
+                        Follow
+                      </Button>
                     </div>
-                    <div className="modal-body ml-auto mr-auto" xs="10">
-                      <h6 className="description">
-                        Dereek designed and developed BIOP's token distribution/economics. 
-                      </h6>
-                      <h6 className="description">
-                        He has 4 years of experience as an independent protocol researcher and private investor. After discovering 
-                        Bitcoin in 2014, he went on to develop proprietary mining research tools that find and analyze on-chain data in 2018.
-                      </h6>
-                      <h6 className="description">
-                        Dereek became a market maker and algorithmic trader in 2019 before transitioning into decentralized finance 
-                        in early 2020. He'd been searching for a project that would make use of his experience and various talents 
-                        and found that fit bootstrapping the Settlement DAO.
-                      </h6>
-                      <h6 className="description">
-                        Dereek attended the School of Industrial and Information Engineering at Politecnico di Milano.
-                      </h6>
-                    </div>
-                    <div className="modal-footer">
-                      <div className="left-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="danger"
-                          type="button"
-                          onClick={toggleDereek69Modal}
-                        >
-                          <i className="fa fa-window-close" />
-                          Close
-                        </Button>
-                      </div>
-                      <div className="divider" />
-                      <div className="right-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="primary"
-                          href="https://twitter.com/dereek70"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                          Follow
-                        </Button>
-                      </div>
-                    </div>
-                  </Modal>
-                </CardFooter>
+                  </div>
+                </Modal>
               </Card>
             </Col>
             <Col md="4">
@@ -380,75 +360,65 @@ function Founders() {
                     </div>
                   </a>
                 </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    href="#blog"
-                    className="btn-just-icon ml-1"
-                    color="danger"
-                    onClick={toggleMunairModal}
-                  >
-                    <i className="fa fa-info" />
-                  </Button>
-                  {/* Munair Modal */}
-                  <Modal isOpen={munairModal} toggle={toggleMunairModal}>
-                    <div className="modal-header">
-                      <button
-                        aria-label="Close"
-                        className="close"
+                {/* Munair Modal */}
+                <Modal isOpen={munairModal} toggle={toggleMunairModal}>
+                  <div className="modal-header">
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      type="button"
+                      onClick={toggleMunairModal}
+                    >
+                      <span aria-hidden={true}>×</span>
+                    </button>
+                    <h2
+                      className="modal-title text-center"
+                      id="zeroModalLabel"
+                    >
+                      Munair
+                    </h2>
+                  </div>
+                  <div className="modal-body ml-auto mr-auto" xs="10">
+                    <h6 className="description">
+                      Munair exerts a strong influence on marketing strategy. He is most active in community building on 
+                      Discord and an occasional contributor to the protocol's codebase. In particular, he enjoys sharing 
+                      the benefits of the protocol with the wider community via Medium. 
+                    </h6>
+                    <h6 className="description">
+                      Before joining the Settlement DAO and its binary options settlement protocol, Munair was the chief 
+                      marketing officer of IoTrust (makers of the D'CENT Biometric Hardware Wallet) and led strategy and 
+                      business development for numerous other cryptocurrency projects based in South Korea. 
+                    </h6>
+                    <h6 className="description">
+                      Munair has an MBA in Marketing from the Wharton School at the University of Pennsylvania.
+                    </h6>
+                  </div>
+                  <div className="modal-footer">
+                    <div className="left-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="danger"
                         type="button"
                         onClick={toggleMunairModal}
                       >
-                        <span aria-hidden={true}>×</span>
-                      </button>
-                      <h2
-                        className="modal-title text-center"
-                        id="zeroModalLabel"
+                        <i className="fa fa-window-close" />
+                        Close
+                      </Button>
+                    </div>
+                    <div className="divider" />
+                    <div className="right-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="primary"
+                        href="https://twitter.com/munair"
+                        onClick={(e) => e.preventDefault()}
                       >
-                        Munair
-                      </h2>
+                        <i className="fa fa-twitter" />
+                        Follow
+                      </Button>
                     </div>
-                    <div className="modal-body ml-auto mr-auto" xs="10">
-                      <h6 className="description">
-                        Munair exerts a strong influence on marketing strategy. He is most active in community building on 
-                        Discord and an occasional contributor to the protocol's codebase. In particular, he enjoys sharing 
-                        the benefits of the protocol with the wider community via Medium. 
-                      </h6>
-                      <h6 className="description">
-                        Before joining the Settlement DAO and its binary options settlement protocol, Munair was the chief 
-                        marketing officer of IoTrust (makers of the D'CENT Biometric Hardware Wallet) and led strategy and 
-                        business development for numerous other cryptocurrency projects based in South Korea. 
-                      </h6>
-                      <h6 className="description">
-                        Munair has an MBA in Marketing from the Wharton School at the University of Pennsylvania.
-                      </h6>
-                    </div>
-                    <div className="modal-footer">
-                      <div className="left-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="danger"
-                          type="button"
-                          onClick={toggleMunairModal}
-                        >
-                          <i className="fa fa-window-close" />
-                          Close
-                        </Button>
-                      </div>
-                      <div className="divider" />
-                      <div className="right-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="primary"
-                          href="https://twitter.com/munair"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                          Follow
-                        </Button>
-                      </div>
-                    </div>
-                  </Modal>
-                </CardFooter>
+                  </div>
+                </Modal>
               </Card>
             </Col>
             <Col md="4">
@@ -472,76 +442,66 @@ function Founders() {
                     </div>
                   </a>
                 </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    href="#blog"
-                    className="btn-just-icon ml-1"
-                    color="danger"
-                    onClick={toggleUchennaModal}
-                  >
-                    <i className="fa fa-info" />
-                  </Button>
-                  {/* Uchenna Modal */}
-                  <Modal isOpen={uchennaModal} toggle={toggleUchennaModal}>
-                    <div className="modal-header">
-                      <button
-                        aria-label="Close"
-                        className="close"
+                {/* Uchenna Modal */}
+                <Modal isOpen={uchennaModal} toggle={toggleUchennaModal}>
+                  <div className="modal-header">
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      type="button"
+                      onClick={toggleUchennaModal}
+                    >
+                      <span aria-hidden={true}>×</span>
+                    </button>
+                    <h2
+                      className="modal-title text-center"
+                      id="zeroModalLabel"
+                    >
+                      Uchenna
+                    </h2>
+                  </div>
+                  <div className="modal-body ml-auto mr-auto" xs="10">
+                    <h6 className="description">
+                      Uchenna is the lord of testing and managing the protocol's repository. He has over twelve year's 
+                      software development experience and has contributed to several open-source technologies. In particular, 
+                      his contributions to BitTorrent make him an indispensable part of a team now obsessed with code quality 
+                      and security.
+                    </h6>
+                    <h6 className="description">
+                      Outside of cryptocurrency-related collaborations and contributions to open-source projects like Apache 
+                      Spark, Uchenna has contributed to exciting technological advances in the areas of distributed technologies 
+                      and large-scale systems for several fortune 500 companies in Silicon Valley.
+                    </h6>
+                    <h6 className="description">
+                      Uchenna holds a graduate degree in computer engineering from Virginia Tech.
+                    </h6>
+                  </div>
+                  <div className="modal-footer">
+                    <div className="left-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="danger"
                         type="button"
                         onClick={toggleUchennaModal}
                       >
-                        <span aria-hidden={true}>×</span>
-                      </button>
-                      <h2
-                        className="modal-title text-center"
-                        id="zeroModalLabel"
+                        <i className="fa fa-window-close" />
+                        Close
+                      </Button>
+                    </div>
+                    <div className="divider" />
+                    <div className="right-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="primary"
+                        href="https://twitter.com/calikev85"
+                        onClick={(e) => e.preventDefault()}
                       >
-                        Uchenna
-                      </h2>
+                        <i className="fa fa-twitter" />
+                        Follow
+                      </Button>
                     </div>
-                    <div className="modal-body ml-auto mr-auto" xs="10">
-                      <h6 className="description">
-                        Uchenna is the lord of testing and managing the protocol's repository. He has over twelve year's 
-                        software development experience and has contributed to several open-source technologies. In particular, 
-                        his contributions to BitTorrent make him an indispensable part of a team now obsessed with code quality 
-                        and security.
-                      </h6>
-                      <h6 className="description">
-                        Outside of cryptocurrency-related collaborations and contributions to open-source projects like Apache 
-                        Spark, Uchenna has contributed to exciting technological advances in the areas of distributed technologies 
-                        and large-scale systems for several fortune 500 companies in Silicon Valley.
-                      </h6>
-                      <h6 className="description">
-                        Uchenna holds a graduate degree in computer engineering from Virginia Tech.
-                      </h6>
-                    </div>
-                    <div className="modal-footer">
-                      <div className="left-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="danger"
-                          type="button"
-                          onClick={toggleUchennaModal}
-                        >
-                          <i className="fa fa-window-close" />
-                          Close
-                        </Button>
-                      </div>
-                      <div className="divider" />
-                      <div className="right-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="primary"
-                          href="https://twitter.com/calikev85"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                          Follow
-                        </Button>
-                      </div>
-                    </div>
-                  </Modal>
-                </CardFooter>
+                  </div>
+                </Modal>
               </Card>
             </Col>
           </Row>
