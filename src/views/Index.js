@@ -29,7 +29,7 @@ import SocialMedia from "views/index-sections/SocialMedia.js";
 import Founders from "views/index-sections/Founders";
 import Notification from "views/index-sections/Notification.js";
 
-function LandingPage() {
+function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -53,4 +53,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default Index;
