@@ -7,7 +7,6 @@ import {
   Button,
   Card,
   CardBody,
-  CardFooter,
   CardTitle,
   Container,
   Row,
@@ -99,7 +98,7 @@ function Founders() {
                 <CardBody>
                   <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <div className="author">
-                      <CardTitle tag="h4 danger-color title">Shalaquiana</CardTitle>
+                      <CardTitle tag="h4">Shalaquiana</CardTitle>
                       <h6 className="card-category">Core Developer</h6>
                     </div>
                   </a>
