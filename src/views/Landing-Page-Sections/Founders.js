@@ -86,7 +86,7 @@ function Founders() {
             <Col md="6">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
-                  <a href="#shalaquiana" onClick={(e) => e.preventDefault()}>
+                  <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <img
                       alt="shalaquiana"
                       src={
@@ -97,7 +97,7 @@ function Founders() {
                   </a>
                 </div>
                 <CardBody>
-                  <a href="#shalaquiana" onClick={(e) => e.preventDefault()}>
+                  <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <div className="author">
                       <CardTitle tag="h4">Shalaquiana</CardTitle>
                       <h6 className="card-category">Core Developer</h6>
@@ -181,7 +181,7 @@ function Founders() {
             <Col md="6">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
-                  <a href="#zero" onClick={(e) => e.preventDefault()}>
+                  <a href="#zero" onClick={toggleZeroModal}>
                     <img
                       alt="zero"
                       src={
@@ -278,7 +278,7 @@ function Founders() {
             <Col md="4">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
-                  <a href="#dereek69" onClick={(e) => e.preventDefault()}>
+                  <a href="#dereek69" onClick={toggleDereek69Modal}>
                     <img
                       alt="dereek69"
                       src={
@@ -289,7 +289,7 @@ function Founders() {
                   </a>
                 </div>
                 <CardBody>
-                  <a href="#dereek69" onClick={(e) => e.preventDefault()}>
+                  <a href="#dereek69" onClick={toggleDereek69Modal}>
                     <div className="author">
                       <CardTitle tag="h4">Dereek69</CardTitle>
                       <h6 className="card-category">Token Economist</h6>
@@ -372,7 +372,7 @@ function Founders() {
             <Col md="4">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
-                  <a href="#munair" onClick={(e) => e.preventDefault()}>
+                  <a href="#munair" onClick={toggleMunairModal}>
                     <img
                       alt="munair"
                       src={
@@ -383,7 +383,7 @@ function Founders() {
                   </a>
                 </div>
                 <CardBody>
-                  <a href="#munair" onClick={(e) => e.preventDefault()}>
+                  <a href="#munair" onClick={toggleMunairModal}>
                     <div className="author">
                       <CardTitle tag="h4">Munair</CardTitle>
                       <h6 className="card-category">Marketing Manager</h6>
@@ -464,7 +464,7 @@ function Founders() {
             <Col md="4">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-white">
-                  <a href="#uchenna" onClick={(e) => e.preventDefault()}>
+                  <a href="#uchenna" onConClick={toggleUchennaModal}>
                     <img
                       alt="uchenna"
                       src={
@@ -475,7 +475,7 @@ function Founders() {
                   </a>
                 </div>
                 <CardBody>
-                  <a href="#uchenna" onClick={(e) => e.preventDefault()}>
+                  <a href="#uchenna" onClick={toggleUchennaModal}>
                     <div className="author">
                       <CardTitle tag="h4">Uchenna</CardTitle>
                       <h6 className="card-category">Marketing Manager</h6>
