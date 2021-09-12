@@ -84,7 +84,7 @@ function Founders() {
           <Row>
             <Col md="6">
               <Card className="card-profile card-plain">
-                <div className="card-avatar" style={{border: "4px solid #D6000"}}>
+                <div className="card-avatar border-grey">
                   <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <img
                       alt="shalaquiana"
@@ -169,7 +169,7 @@ function Founders() {
             </Col>
             <Col md="6">
               <Card className="card-profile card-plain">
-                <div className="card-avatar" style={{border: "4px solid #D6000"}}>
+                <div className="card-avatar border-grey">
                   <a href="#zero" onClick={toggleZeroModal}>
                     <img
                       alt="zero"
@@ -256,7 +256,7 @@ function Founders() {
           <Row>
             <Col md="4">
               <Card className="card-profile card-plain">
-                <div className="card-avatar" style={{border: "4px solid #D6000"}}>
+                <div className="card-avatar border-grey">
                   <a href="#dereek69" onClick={toggleDereek69Modal}>
                     <img
                       alt="dereek69"
@@ -340,7 +340,7 @@ function Founders() {
             </Col>
             <Col md="4">
               <Card className="card-profile card-plain">
-                <div className="card-avatar" style={{border: "4px solid #D6000"}}>
+                <div className="card-avatar border-grey">
                   <a href="#munair" onClick={toggleMunairModal}>
                     <img
                       alt="munair"
@@ -422,7 +422,7 @@ function Founders() {
             </Col>
             <Col md="4">
               <Card className="card-profile card-plain">
-                <div className="card-avatar" style={{border: "4px solid #D6000"}}>
+                <div className="card-avatar border-grey">
                   <a href="#uchenna" onClick={toggleUchennaModal}>
                     <img
                       alt="uchenna"
