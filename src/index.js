@@ -10,11 +10,12 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 
 // pages
+import LandingPage from "views/LandingPage.js";
 
 // react
 const App = () => (
   <BrowserRouter>
-    <h1>Hello World</h1>
+    <LandingPage />
   </BrowserRouter>
 );
 
