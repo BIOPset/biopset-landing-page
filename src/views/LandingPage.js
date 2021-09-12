@@ -29,8 +29,8 @@ function LandingPage() {
         <SocialMedia />
         <Founders />
         <Notification />
-        <LandingPageFooter />
       </div>
+      <LandingPageFooter />
     </>
   );
 }
