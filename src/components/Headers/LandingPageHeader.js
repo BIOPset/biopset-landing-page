@@ -44,7 +44,7 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <img src={brandIcon} alt="brand icon" />
+            <img src={brandIcon} width="75px" height="75px" alt="brand icon" />
             <h2>binary options <br /> settlement protocol</h2>
             <br />
             <h6 className="info-title">on-demand<br /> peer-to-pool<br /> binary options trading</h6>
