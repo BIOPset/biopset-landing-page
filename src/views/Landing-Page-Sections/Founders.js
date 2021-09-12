@@ -100,82 +100,72 @@ function Founders() {
                   <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <div className="author">
                       <CardTitle tag="h4">Shalaquiana</CardTitle>
-                      <h6 className="card-category">Core Developer</h6>
+                      <h6 className="card-category danger-color">Core Developer</h6>
                     </div>
                   </a>
                 </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    href="#blog"
-                    className="btn-just-icon ml-1"
-                    color="danger"
-                    onClick={toggleShalaquianaModal}
-                  >
-                    <i className="fa fa-info" />
-                  </Button>
-                  {/* Shalaquiana Modal */}
-                  <Modal isOpen={shalaquianaModal} toggle={toggleShalaquianaModal}>
-                    <div className="modal-header">
-                      <button
-                        aria-label="Close"
-                        className="close"
+                {/* Shalaquiana Modal */}
+                <Modal isOpen={shalaquianaModal} toggle={toggleShalaquianaModal}>
+                  <div className="modal-header">
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      type="button"
+                      onClick={toggleShalaquianaModal}
+                    >
+                      <span aria-hidden={true}>×</span>
+                    </button>
+                    <h2
+                      className="modal-title text-center"
+                      id="shalaquianaModalLabel"
+                    >
+                      Shalaquiana
+                    </h2>
+                  </div>
+                  <div className="modal-body ml-auto mr-auto" xs="10">
+                    <h6 className="description">
+                      Shalaquiana is BIOPset’s primary developer. She developed the first versions of the protocol 
+                      independently and now works collaboratively with the rest of the team and the broader community 
+                      to refine the current version of the smart contracts and improve the web apps' UI/UX. 
+                    </h6>
+                    <h6 className="description">
+                      She also enjoys developing marketing content. In particular, she finds creating memes and other 
+                      light content a much-needed respite from leading development.
+                    </h6>
+                    <h6 className="description">
+                      Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
+                      decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
+                    </h6>
+                    <h6 className="description">
+                      Shalaquiana credentials are on display in the protocol's codebase.
+                    </h6>
+                  </div>
+                  <div className="modal-footer">
+                    <div className="left-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="danger"
                         type="button"
                         onClick={toggleShalaquianaModal}
                       >
-                        <span aria-hidden={true}>×</span>
-                      </button>
-                      <h2
-                        className="modal-title text-center"
-                        id="shalaquianaModalLabel"
+                        <i className="fa fa-window-close" />
+                        Close
+                      </Button>
+                    </div>
+                    <div className="divider" />
+                    <div className="right-side">
+                      <Button
+                        className="btn-link btn-just-icon ml-1"
+                        color="primary"
+                        href="https://twitter.com/shalaquiana"
+                        onClick={(e) => e.preventDefault()}
                       >
-                        Shalaquiana
-                      </h2>
+                        <i className="fa fa-twitter" />
+                        Follow
+                      </Button>
                     </div>
-                    <div className="modal-body ml-auto mr-auto" xs="10">
-                      <h6 className="description">
-                        Shalaquiana is BIOPset’s primary developer. She developed the first versions of the protocol 
-                        independently and now works collaboratively with the rest of the team and the broader community 
-                        to refine the current version of the smart contracts and improve the web apps' UI/UX. 
-                      </h6>
-                      <h6 className="description">
-                        She also enjoys developing marketing content. In particular, she finds creating memes and other 
-                        light content a much-needed respite from leading development.
-                      </h6>
-                      <h6 className="description">
-                        Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
-                        decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
-                      </h6>
-                      <h6 className="description">
-                        Shalaquiana credentials are on display in the protocol's codebase.
-                      </h6>
-                    </div>
-                    <div className="modal-footer">
-                      <div className="left-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="danger"
-                          type="button"
-                          onClick={toggleShalaquianaModal}
-                        >
-                          <i className="fa fa-window-close" />
-                          Close
-                        </Button>
-                      </div>
-                      <div className="divider" />
-                      <div className="right-side">
-                        <Button
-                          className="btn-link btn-just-icon ml-1"
-                          color="primary"
-                          href="https://twitter.com/shalaquiana"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                          Follow
-                        </Button>
-                      </div>
-                    </div>
-                  </Modal>
-                </CardFooter>
+                  </div>
+                </Modal>
               </Card>
             </Col>
             <Col md="6">
