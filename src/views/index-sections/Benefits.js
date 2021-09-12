@@ -85,6 +85,11 @@ function Benefits() {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col className="mr-auto ml-auto" md="6">
+            * transaction [gas] fees not taken into consideration.
+          </Col>
+        </Row>
       </Container>
     </div>
   );
