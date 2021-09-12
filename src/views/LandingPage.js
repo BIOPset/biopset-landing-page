@@ -1,9 +1,9 @@
 import React from "react";
 
 // core components
-import ExamplesNavbar from "components/Navbars/LandingPageNavbar.js";
+import LandingPageNavbar from "components/Navbars/LandingPageNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DemoFooter from "components/Footers/LandingPageFooter.js";
+import LandingPageFooter from "components/Footers/LandingPageFooter.js";
 
 // index sections
 import Benefits from "views/Landing-Page-Sections/Benefits.js";
@@ -22,15 +22,15 @@ function LandingPage() {
 
   return (
     <>
-      <ExamplesNavbar />
+      <LandingPageNavbar />
       <LandingPageHeader />
       <div id="main" className="main">
         <Benefits />
         <SocialMedia />
         <Founders />
         <Notification />
+        <LandingPageFooter />
       </div>
-      <DemoFooter />
     </>
   );
 }
