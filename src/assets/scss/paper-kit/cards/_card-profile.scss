@@ -28,7 +28,17 @@
 
     img {
       transition: transform 2s, filter 1.5s ease-in-out;
+      -webkit-transition: transform 2s, filter 1.5s ease-in-out;
+      -moz-transition: transform 2s, filter 1.5s ease-in-out;
+      -o-transition: transform 2s, filter 1.5s ease-in-out;
+      -ms-transition: transform 2s, filter 1.5s ease-in-out;
+  
       transform-origin: center center;
+      -webkit-transform-orgin: center center;
+      -moz-transform-orgin: center center;
+      -o-transform-orgin: center center;
+      -ms-transform-orgin: center center;
+
       filter: brightness(100%);  
     }
 
