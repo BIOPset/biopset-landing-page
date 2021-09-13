@@ -84,10 +84,9 @@ function Founders() {
           <Row>
             <Col md="6">
               <Card className="card-profile card-plain">
-                <div className="card-avatar">
+                <div className="card-avatar border-danger">
                   <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <img
-                      className="border-danger"
                       alt="shalaquiana"
                       src={
                         require("assets/img/faces/shalaquiana-profile-image.jpg")
