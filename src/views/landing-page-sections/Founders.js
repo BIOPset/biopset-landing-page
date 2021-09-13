@@ -85,7 +85,7 @@ function Founders() {
             <Col md="6">
               <Card className="card-profile card-plain">
                 <div className="card-avatar border-danger">
-                  <a href="#shalaquiana" onClick={toggleShalaquianaModal}>
+                  <a className="image-wrapper" href="#shalaquiana" onClick={toggleShalaquianaModal}>
                     <img
                       alt="shalaquiana"
                       src={
