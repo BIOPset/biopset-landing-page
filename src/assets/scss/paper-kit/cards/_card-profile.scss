@@ -32,7 +32,7 @@
     -moz-transform: translate3d(0, 0, 0);
 
     img {
-      transition: transform 2s, filter 1.5s ease-in-out;
+      transition: transform 1.5s, filter 2s ease-in-out;
       transform-origin: center center;
       filter: brightness(100%);  
       border-radius: 50%;
