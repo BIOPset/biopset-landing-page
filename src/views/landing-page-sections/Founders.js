@@ -271,7 +271,7 @@ function Founders() {
                   <a href="#dereek69" onClick={toggleDereek69Modal}>
                     <div className="author">
                       <CardTitle tag="h4">Dereek69</CardTitle>
-                      <h6 className="card-category">Token Economist</h6>
+                      <h6 className="card-category">Finance Manager</h6>
                     </div>
                   </a>
                 </CardBody>
