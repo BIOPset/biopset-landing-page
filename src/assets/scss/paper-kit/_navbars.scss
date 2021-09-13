@@ -9,6 +9,7 @@
 }
 .navbar {
     border: $none;
+    font-family: 'octarine-bold';
     font-size: $font-size-base;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
@@ -22,7 +23,7 @@
         padding: $navbar-padding-brand;
         font-size: $font-size-base;
         color: $default-color;
-        text-transform: uppercase;
+        text-transform: lowercase;
     }
     .navbar-toggler:focus {
       outline: none;
