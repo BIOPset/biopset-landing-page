@@ -213,12 +213,8 @@ function Founders() {
                       the website. 
                     </h6>
                     <h6 className="description">
-                      Zero possesses 5 year's experience as a freelancer. This experience includes numerous projects that 
+                      Zero possesses 5 years' experience as a freelancer. This experience includes numerous projects that 
                       greatly expanded his knowledge of various creative techniques.
-                    </h6>
-                    <h6 className="description">
-                      Before founding the Settlement DAO and developing its protocol, Shalaquiana worked on several other 
-                      decentralized protocols on Ethereum and other blockchains (like NEO and Nebulas).
                     </h6>
                     <h6 className="description">
                       Zero graduated from an art school in Milan and counts his desire to learn new things as his greatest asset.
@@ -298,13 +294,14 @@ function Founders() {
                       Dereek designed and developed BIOP's token distribution/economics. 
                     </h6>
                     <h6 className="description">
-                      He has 4 years of experience as an independent protocol researcher and private investor. After discovering 
-                      Bitcoin in 2014, he went on to develop proprietary mining research tools that find and analyze on-chain data in 2018.
+                      He is independent protocol researcher and private investor. Dereek discovered Bitcoin in 2014. In 2018,
+                      he began to develop proprietary mining research tools that find and analyze on-chain data. The following 
+                      year he became a market maker and algorithmic trader. 
                     </h6>
                     <h6 className="description">
-                      Dereek became a market maker and algorithmic trader in 2019 before transitioning into decentralized finance 
-                      in early 2020. He'd been searching for a project that would make use of his experience and various talents 
-                      and found that fit bootstrapping the Settlement DAO.
+                      In early 2020, he made a transition into decentralized finance. He'd been searching for a project that 
+                      would make use of his experience and various talents and found that fit bootstrapping the BIOPset and its 
+                      Settlement DAO.
                     </h6>
                     <h6 className="description">
                       Dereek attended the School of Industrial and Information Engineering at Politecnico di Milano.
@@ -461,7 +458,7 @@ function Founders() {
                   </div>
                   <div className="modal-body ml-auto mr-auto" xs="10">
                     <h6 className="description">
-                      Uchenna is the lord of testing and managing the protocol's repository. He has over twelve year's 
+                      Uchenna is the lord of testing and managing the protocol's repository. He has over 12 years' 
                       software development experience and has contributed to several open-source technologies. In particular, 
                       his contributions to BitTorrent make him an indispensable part of a team now obsessed with code quality 
                       and security.
