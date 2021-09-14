@@ -294,13 +294,13 @@ function Founders() {
                       Dereek designed and developed BIOP's token distribution/economics. 
                     </h6>
                     <h6 className="description">
-                      He is independent protocol researcher and private investor. Dereek discovered Bitcoin in 2014. In 2018,
+                      He is an independent protocol researcher and private investor. Dereek discovered Bitcoin in 2014. In 2018,
                       he began to develop proprietary mining research tools that find and analyze on-chain data. The following 
                       year he became a market maker and algorithmic trader. 
                     </h6>
                     <h6 className="description">
                       In early 2020, he made a transition into decentralized finance. He'd been searching for a project that 
-                      would make use of his experience and various talents and found that fit bootstrapping the BIOPset and its 
+                      would make use of his experience and various talents and found that fit bootstrapping BIOPset and its 
                       Settlement DAO.
                     </h6>
                     <h6 className="description">
