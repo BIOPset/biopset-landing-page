@@ -141,7 +141,7 @@ function LandingPageNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://biopset.com/app/"
+                href="https://app.biopset.com/"
                 target="_blank"
               >
                 <i className="nc-icon nc-spaceship"></i> Launch dApp

@@ -52,7 +52,7 @@ function LandingPageHeader() {
             <Button
               className="btn-round mr-4"
               color="danger"
-              href="https://biopset.com/app/"
+              href="https://app.biopset.com/"
               target="_blank"
             >
               <i className="fa fa-plug" />
