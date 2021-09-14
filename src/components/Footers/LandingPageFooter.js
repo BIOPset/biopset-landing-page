@@ -13,7 +13,7 @@ function LandingPageFooter() {
             <ul>
               <li>
                 <a
-                  href="https://https//medium.com/biopset"
+                  href="https://medium.com/biopset"
                   target="_blank"
                 >
                   Blog
