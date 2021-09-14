@@ -217,7 +217,7 @@ function Founders() {
                       greatly expanded his knowledge of various creative techniques.
                     </h6>
                     <h6 className="description">
-                      Zero graduated from an art school in Milan and counts his desire to learn new things as his greatest asset.
+                      Zero graduated from an art school in Milan and counts the desire to learn new things as his greatest asset.
                     </h6>
                   </div>
                   <div className="modal-footer">
