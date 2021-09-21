@@ -125,7 +125,7 @@ function SocialMedia() {
                 learn how BIOPset can be a benefit to you.
               </p>
               <br />
-              <iframe width="100%" height="500px" src="https://www.youtube.com/embed/G86wkheYmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="500px" src="https://www.youtube.com/embed/syvJZ6_eEZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </TabPane>
             <TabPane tabId="3">
              <h6>Join Our Community</h6>
